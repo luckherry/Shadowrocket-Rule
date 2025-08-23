@@ -94,6 +94,6 @@ DOMAIN-SUFFIX,events-delivery.apple.com
 DOMAIN-SUFFIX,intelligence.apple.com
 DOMAIN-SUFFIX,ml.apple.com
 DOMAIN-SUFFIX,axm.apple.com
-
-
+DOMAIN-SUFFIX,ml-compute.apple.com
+DOMAIN-SUFFIX,ai-relay.apple.com
 
