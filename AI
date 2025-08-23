@@ -77,14 +77,17 @@ DOMAIN-KEYWORD,developerprofiles
 DOMAIN-KEYWORD,generativelanguage
 #NAME: Apple intelligence
 #DOMAIN-SUFFIX: 8
-#TOTAL:8
+#TOTAL:10
 DOMAIN-SUFFIX,apple-relay.apple.com
 DOMAIN-SUFFIX,apple-relay.cloudflare.com
 DOMAIN-SUFFIX,apple-relay.fastly-edge.com
 DOMAIN-SUFFIX,cp4.cloudflare.com
-DOMAIN-SUFFIX,openai.com
-DOMAIN-SUFFIX,chatgpt.com
-DOMAIN-SUFFIX,ios.chat.openai.com
-DOMAIN-SUFFIX,auth0.openai.com
+DOMAIN-SUFFIX,pcc.apple.com
+DOMAIN-SUFFIX,private-cloud-compute.apple.com
+DOMAIN-SUFFIX,ai.apple.com
+DOMAIN-SUFFIX,axm-upload.apple.com
+DOMAIN-SUFFIX,gateway.icloud.com
+DOMAIN-SUFFIX,setup.icloud.com
+
 
 
