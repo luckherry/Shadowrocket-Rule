@@ -80,10 +80,11 @@ DOMAIN-KEYWORD,generativelanguage
 #DOMAIN-SUFFIX: 4
 #TOTAL:5
 DOMAIN,guzzoni.apple.com
-DOMAIN-SUFFIX,apple-relay.cloudflare.com
+DOMAIN-SUFFIX,apple-relay.cloudflare.com:443
+DOMAIN-SUFFIX,apple-relay.apple.com:443
 DOMAIN-SUFFIX,apple-relay.fastly-edge.com
 DOMAIN-SUFFIX,cp4.cloudflare.com
-DOMAIN-SUFFIX,apple-relay.apple.com
+
 
 
 
