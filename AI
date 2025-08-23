@@ -103,3 +103,6 @@ DOMAIN-SUFFIX,vision.openai.com
 DOMAIN-SUFFIX,api.chatgpt.com
 DOMAIN-SUFFIX,ml-compute-relay.apple.com
 DOMAIN-SUFFIX,vision.apple.com
+DOMAIN-SUFFIX,visual-intelligence.apple.com
+DOMAIN-SUFFIX,ai-compute.apple.com
+DOMAIN-SUFFIX,chatgpt-api.openai.com
