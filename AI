@@ -96,4 +96,10 @@ DOMAIN-SUFFIX,ml.apple.com
 DOMAIN-SUFFIX,axm.apple.com
 DOMAIN-SUFFIX,ml-compute.apple.com
 DOMAIN-SUFFIX,ai-relay.apple.com
-
+# Visual Intelligence 相關域名
+DOMAIN-SUFFIX,oauth2.openai.com
+DOMAIN-SUFFIX,images.openai.com
+DOMAIN-SUFFIX,vision.openai.com
+DOMAIN-SUFFIX,api.chatgpt.com
+DOMAIN-SUFFIX,ml-compute-relay.apple.com
+DOMAIN-SUFFIX,vision.apple.com
