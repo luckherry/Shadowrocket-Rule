@@ -75,5 +75,11 @@ DOMAIN-SUFFIX,apis.google.com
 DOMAIN-KEYWORD,colab
 DOMAIN-KEYWORD,developerprofiles
 DOMAIN-KEYWORD,generativelanguage
-
+#NAME: Apple intelligence
+#DOMAIN:2
+#DOMAIN-KEYWORD: 1
+#TOTAL:3
+DOMAIN,apple-relay.apple.com
+DOMAIN,apple-relay.cloudflare.com
+DOMAIN-KEYWORD,apple-relay
 
