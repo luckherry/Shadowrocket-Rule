@@ -115,4 +115,6 @@ DOMAIN-SUFFIX,featureassets.org
 DOMAIN-SUFFIX,vision.openai.com
 DOMAIN-SUFFIX,images.openai.com
 DOMAIN-SUFFIX,chatgpt-api.openai.com
-
+DOMAIN-SUFFIX,visual-intelligence.apple.com
+DOMAIN-SUFFIX,ai-compute.apple.com
+DOMAIN-SUFFIX,siri.apple.com
