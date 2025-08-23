@@ -106,3 +106,13 @@ DOMAIN-SUFFIX,vision.apple.com
 DOMAIN-SUFFIX,visual-intelligence.apple.com
 DOMAIN-SUFFIX,ai-compute.apple.com
 DOMAIN-SUFFIX,chatgpt-api.openai.com
+# Visual Intelligence 相關域名
+DOMAIN-SUFFIX,seed.siri.apple.com
+DOMAIN-SUFFIX,mask-api.icloud.com
+DOMAIN-SUFFIX,metrics.icloud.com
+DOMAIN-SUFFIX,mask-canary.icloud.com
+DOMAIN-SUFFIX,featureassets.org
+DOMAIN-SUFFIX,vision.openai.com
+DOMAIN-SUFFIX,images.openai.com
+DOMAIN-SUFFIX,chatgpt-api.openai.com
+
