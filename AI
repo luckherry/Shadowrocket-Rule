@@ -76,10 +76,14 @@ DOMAIN-KEYWORD,colab
 DOMAIN-KEYWORD,developerprofiles
 DOMAIN-KEYWORD,generativelanguage
 #NAME: Apple intelligence
-#DOMAIN:2
-#DOMAIN-KEYWORD: 1
-#TOTAL:3
-DOMAIN,apple-relay.apple.com
-DOMAIN,apple-relay.cloudflare.com
-DOMAIN-KEYWORD,apple-relay
+#DOMAIN: 1
+#DOMAIN-SUFFIX: 4
+#TOTAL:5
+DOMAIN,guzzoni.apple.com
+DOMAIN-SUFFIX,apple-relay.cloudflare.com
+DOMAIN-SUFFIX,apple-relay.fastly-edge.com
+DOMAIN-SUFFIX,cp4.cloudflare.com
+DOMAIN-SUFFIX,apple-relay.apple.com
+
+
 
