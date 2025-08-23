@@ -88,6 +88,12 @@ DOMAIN-SUFFIX,ai.apple.com
 DOMAIN-SUFFIX,axm-upload.apple.com
 DOMAIN-SUFFIX,gateway.icloud.com
 DOMAIN-SUFFIX,setup.icloud.com
+DOMAIN-SUFFIX,appleintelligence.apple.com
+DOMAIN-SUFFIX,relay.apple.com
+DOMAIN-SUFFIX,events-delivery.apple.com
+DOMAIN-SUFFIX,intelligence.apple.com
+DOMAIN-SUFFIX,ml.apple.com
+DOMAIN-SUFFIX,axm.apple.com
 
 
 
