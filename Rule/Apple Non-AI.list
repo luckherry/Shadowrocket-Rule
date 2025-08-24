@@ -13,3 +13,13 @@ DOMAIN-SUFFIX,icloud.com.cn
 DOMAIN-SUFFIX,me.com
 DOMAIN-SUFFIX,mzstatic.com
 DOMAIN-SUFFIX,apple.news
+DOMAIN-SUFFIX,itunes.apple.com,DIRECT  # Media downloads (music, apps, videos)
+DOMAIN-SUFFIX,xp.apple.com,DIRECT      # Diagnostics and reporting
+DOMAIN-SUFFIX,ls.apple.com,DIRECT      # Location Services (general)
+DOMAIN-SUFFIX,gsp-ssl.ls.apple.com,DIRECT  # Location data for apps
+DOMAIN-SUFFIX,configuration.apple.com,DIRECT  # Device configuration profiles
+DOMAIN-SUFFIX,mesu.apple.com,DIRECT    # Software update checks
+DOMAIN-SUFFIX,gs.apple.com,DIRECT      # Device activation and setup
+DOMAIN-SUFFIX,skl.apple.com,DIRECT     # Security key management
+DOMAIN-SUFFIX,alcdn.apple.com,DIRECT   # App Store content delivery
+DOMAIN-SUFFIX,phobos.apple.com,DIRECT  # Legacy iTunes content
