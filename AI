@@ -42,6 +42,8 @@ DOMAIN-SUFFIX,image-playground.apple.com
 DOMAIN-SUFFIX,ml-compute-relay.apple.com
 DOMAIN-SUFFIX,visual.apple.com
 DOMAIN-KEYWORD,apple-relay
+# Apple Catch-All
+DOMAIN-SUFFIX,apple.com
 # ChatGPT
 DOMAIN,browser-intake-datadoghq.com
 DOMAIN,chat.openai.com.cdn.cloudflare.net
