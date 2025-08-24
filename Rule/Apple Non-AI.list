@@ -1,25 +1,23 @@
-# Apple Non-AI Services
 DOMAIN,www-cdn.icloud.com.akadns.net
 DOMAIN-SUFFIX,aaplimg.com
+DOMAIN-SUFFIX,alcdn.apple.com
 DOMAIN-SUFFIX,apple-cloudkit.com
 DOMAIN-SUFFIX,apple.co
 DOMAIN-SUFFIX,apple.com.cn
+DOMAIN-SUFFIX,apple.news
 DOMAIN-SUFFIX,appstore.com
 DOMAIN-SUFFIX,cdn-apple.com
-DOMAIN-SUFFIX,crashlytics.com
+DOMAIN-SUFFIX,configuration.apple.com
+DOMAIN-SUFFIX,gs.apple.com
+DOMAIN-SUFFIX,gsp-ssl.ls.apple.com
 DOMAIN-SUFFIX,icloud-content.com
 DOMAIN-SUFFIX,icloud.com
 DOMAIN-SUFFIX,icloud.com.cn
+DOMAIN-SUFFIX,itunes.apple.com
+DOMAIN-SUFFIX,ls.apple.com
 DOMAIN-SUFFIX,me.com
+DOMAIN-SUFFIX,mesu.apple.com
 DOMAIN-SUFFIX,mzstatic.com
-DOMAIN-SUFFIX,apple.news
-DOMAIN-SUFFIX,itunes.apple.com,DIRECT  # Media downloads (music, apps, videos)
-DOMAIN-SUFFIX,xp.apple.com,DIRECT      # Diagnostics and reporting
-DOMAIN-SUFFIX,ls.apple.com,DIRECT      # Location Services (general)
-DOMAIN-SUFFIX,gsp-ssl.ls.apple.com,DIRECT  # Location data for apps
-DOMAIN-SUFFIX,configuration.apple.com,DIRECT  # Device configuration profiles
-DOMAIN-SUFFIX,mesu.apple.com,DIRECT    # Software update checks
-DOMAIN-SUFFIX,gs.apple.com,DIRECT      # Device activation and setup
-DOMAIN-SUFFIX,skl.apple.com,DIRECT     # Security key management
-DOMAIN-SUFFIX,alcdn.apple.com,DIRECT   # App Store content delivery
-DOMAIN-SUFFIX,phobos.apple.com,DIRECT  # Legacy iTunes content
+DOMAIN-SUFFIX,phobos.apple.com
+DOMAIN-SUFFIX,skl.apple.com
+DOMAIN-SUFFIX,xp.apple.com
