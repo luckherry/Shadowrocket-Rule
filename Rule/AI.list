@@ -2,6 +2,7 @@
 DOMAIN,2-courier.push.apple.com
 DOMAIN-SUFFIX,apple-relay.apple.com
 DOMAIN-SUFFIX,apple-relay.cloudflare.com
+DOMAIN-SUFFIX,apple-relay.fastly-edge.com
 DOMAIN-KEYWORD,apple-relay
 IP-CIDR,172.224.177.0/24
 # ChatGPT
@@ -27,6 +28,7 @@ DOMAIN-SUFFIX,oauth2.openai.com
 DOMAIN-SUFFIX,images.openai.com
 DOMAIN-SUFFIX,vision.openai.com
 DOMAIN-SUFFIX,api.chatgpt.com
+DOMAIN-SUFFIX,ios.chatgpt.com
 DOMAIN-SUFFIX,chatgpt-api.openai.com
 DOMAIN-KEYWORD,openai
 IP-CIDR,24.199.123.28/32,no-resolve
