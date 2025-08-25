@@ -14,10 +14,13 @@ DOMAIN-SUFFIX,gsa.apple.com
 DOMAIN-SUFFIX,iphone-ld.apple.com
 DOMAIB-SUFFIX,gs-loc.apple.com
 IP-CIDR,163.181.164.241/32,
-IP-CIDR,172.224.24.33/32，no-resolve
-IP-CIDR,172.224.24.150/32，no-resolve
-IP-CIDR,172.224.24.152/32，no-resolve
-IP-CIDR,172.224.24.194/32，no-resolve
+IP-CIDR,172.224.24.0/25,no-resolve
+IP-CIDR,172.224.24.128/26,no-resolve
+IP-CIDR,172.224.24.192/28,no-resolve
+IP-CIDR,172.224.24.208/29,no-resolve
+IP-CIDR,172.224.24.216/30,no-resolve
+IP-CIDR,172.224.24.220/30,no-resolve
+IP-CIDR,172.224.24.224/31Y,no-resolve
 # ChatGPT
 DOMAIN,browser-intake-datadoghq.com
 DOMAIN,chat.openai.com.cdn.cloudflare.net
