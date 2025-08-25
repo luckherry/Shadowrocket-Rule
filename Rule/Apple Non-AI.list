@@ -24,3 +24,4 @@ DOMAIN-SUFFIX,xp.apple.com
 DOMAIN-SUFFIX,gdmf.apple.com
 DOMAIN-SUFFIX,ocsp2.apple.com,DIRECT
 DOMAIN-SUFFIX,38-courier.push.apple.com
+DOMAIN-SUFFIX,time.apple.com
