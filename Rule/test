@@ -19,3 +19,6 @@ DOMAIN-SUFFIX,push.apple.com
 #這個是猜的
 
 DOMAIN-SUFFIX,ios.chatgpt.com
+DOMAIN-SUFFIX,gateway.icloud.com,PROXY
+IP-CIDR,17.0.0.0/8,PROXY,no-resolve
+DOMAIN-SUFFIX,push.apple.com,PROXY
