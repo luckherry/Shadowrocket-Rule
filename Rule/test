@@ -12,3 +12,5 @@ DOMAIN-SUFFIX,www.google.com
 DOMAIN-SUFFIX,accounts.google.com
 DOMAIN-SUFFIX,app.google.com
 DOMAIN-KEYWORD,googleapp
+#APPLE
+DOMAIN-SUFFIX,apple-relay.fastly-edge.com
