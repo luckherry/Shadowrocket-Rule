@@ -3,24 +3,7 @@ DOMAIN-SUFFIX,apple-relay.apple.com
 DOMAIN-SUFFIX,apple-relay.cloudflare.com
 DOMAIN-SUFFIX,apple-relay.fastly-edge.com
 DOMAIN-KEYWORD,apple-relay
-DOMAIN-SUFFIX,cp4.cloudflare.com
-DOMAIN-SUFFIX,guzzoni.apple.com
-DOMAIN-SUFFIX,smoot.apple.com
-DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
-DOMAIN-SUFFIX,seed.siri.apple.com
-DOMAIN-SUFFIX,38-courier.push.apple.com
-DOMAIN-SUFFIX,amp-api-updates.apps.apple.com
-DOMAIN-SUFFIX,gsa.apple.com
-DOMAIN-SUFFIX,iphone-ld.apple.com
-DOMAIB-SUFFIX,gs-loc.apple.com
-IP-CIDR,163.181.164.241/32,
-IP-CIDR,172.224.24.0/25,no-resolve
-IP-CIDR,172.224.24.128/26,no-resolve
-IP-CIDR,172.224.24.192/28,no-resolve
-IP-CIDR,172.224.24.208/29,no-resolve
-IP-CIDR,172.224.24.216/30,no-resolve
-IP-CIDR,172.224.24.220/30,no-resolve
-IP-CIDR,172.224.24.224/31Y,no-resolve
+IP-CIDR,172.224.177.0/24
 # ChatGPT
 DOMAIN,browser-intake-datadoghq.com
 DOMAIN,chat.openai.com.cdn.cloudflare.net
