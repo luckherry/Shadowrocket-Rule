@@ -12,6 +12,7 @@ DOMAIN-SUFFIX,38-courier.push.apple.com
 DOMAIN-SUFFIX,amp-api-updates.apps.apple.com
 DOMAIN-SUFFIX,gsa.apple.com
 DOMAIN-SUFFIX,iphone-ld.apple.com
+DOMAIB-SUFFIX,gs-loc.apple.com
 IP-CIDR,163.181.164.241/32,
 IP-CIDR,172.224.24.33/32，no-resolve
 IP-CIDR,172.224.24.150/32，no-resolve
