@@ -14,3 +14,5 @@ DOMAIN-SUFFIX,app.google.com
 DOMAIN-KEYWORD,googleapp
 #APPLE
 DOMAIN-SUFFIX,apple-relay.fastly-edge.com
+#這個是猜的
+DOMAIN-SUFFIX,ios.chatgpt.com
