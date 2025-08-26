@@ -3,6 +3,7 @@ DOMAIN-SUFFIX,apple-relay.apple.com
 DOMAIN-SUFFIX,apple-relay.cloudflare.com
 DOMAIN-KEYWORD,apple-relay
 IP-CIDR,172.224.177.0/24,no-resolve
+IP-CIDR,17.0.0.0/8,PROXY,no-resolve
 # ChatGPT
 DOMAIN,browser-intake-datadoghq.com
 DOMAIN,chat.openai.com.cdn.cloudflare.net
