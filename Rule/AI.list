@@ -1,8 +1,6 @@
 # APPLE
-DOMAIN,2-courier.push.apple.com
 DOMAIN-SUFFIX,apple-relay.apple.com
 DOMAIN-SUFFIX,apple-relay.cloudflare.com
-DOMAIN-SUFFIX,apple-relay.fastly-edge.com
 DOMAIN-KEYWORD,apple-relay
 IP-CIDR,172.224.177.0/24,no-resolve
 # ChatGPT
