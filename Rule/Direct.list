@@ -4,4 +4,6 @@ DOMAIN-SUFFIX,itunes.apple.com
 DOMAIN-SUFFIX,mac.com
 DOMAIN-SUFFIX,me.com
 DOMAIN-SUFFIX,mesu.apple.com
-DOMAIN-SUFFIX,time.apple.com
+DOMAIN-SUFFIX,time.apple.com 
+DOMAIN-SUFFIX,wps.apple.com #weather
+DOMAIN-SUFFIX,ls.apple.com #location
