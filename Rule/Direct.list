@@ -8,3 +8,4 @@ DOMAIN-SUFFIX,time.apple.com
 DOMAIN-SUFFIX,wps.apple.com #weather
 DOMAIN-SUFFIX,ls.apple.com #location
 DOMAIN-SUFFIX,iphonesubmissions.apple.com #debug
+DOMAIN-SUFFIX,is1-ssl.mzstatic.com #Apple meida
