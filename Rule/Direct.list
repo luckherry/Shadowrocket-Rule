@@ -4,8 +4,13 @@ DOMAIN-SUFFIX,itunes.apple.com
 DOMAIN-SUFFIX,mac.com
 DOMAIN-SUFFIX,me.com
 DOMAIN-SUFFIX,mesu.apple.com
-DOMAIN-SUFFIX,time.apple.com 
-DOMAIN-SUFFIX,wps.apple.com #weather
-DOMAIN-SUFFIX,ls.apple.com #location
-DOMAIN-SUFFIX,iphonesubmissions.apple.com #debug
-DOMAIN-SUFFIX,is1-ssl.mzstatic.com #Apple meida
+DOMAIN-SUFFIX,time.apple.com
+#weather
+DOMAIN-SUFFIX,wps.apple.com
+#location
+DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
+DOMAIN-KEYWORD,ls.apple.com
+#debug
+DOMAIN-SUFFIX,iphonesubmissions.apple.com
+ #Apple meida
+DOMAIN-SUFFIX,is1-ssl.mzstatic.com
