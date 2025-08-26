@@ -1,4 +1,5 @@
-DOMAIN-SUFFIX,appstore.com,DIRECT
-DOMAIN-SUFFIX,itunes.apple.com,DIRECT
-DOMAIN-SUFFIX,mac.com,DIRECT
-DOMAIN-SUFFIX,me.com,DIRECT
+DOMAIN,www.apple.com
+DOMAIN-SUFFIX,appstore.com
+DOMAIN-SUFFIX,itunes.apple.com
+DOMAIN-SUFFIX,mac.com
+DOMAIN-SUFFIX,me.com
