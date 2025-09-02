@@ -15,18 +15,13 @@ DOMAIN-SUFFIX,iphonesubmissions.apple.com
  #Apple meida
 DOMAIN-SUFFIX,is1-ssl.mzstatic.com
 #Test
-DOMAIN-KEYWORD,buy.itunes.apple.com
-USER-AGENT,*FindMyiPhone?
 USER-AGENT,*Music?
 USER-AGENT,*WeatherFoundation*
-USER-AGENT,*com.apple.Maps?
-USER-AGENT,FMFD*
 USER-AGENT,FindMyFriends*
 USER-AGENT,FindMyiPhone*
 USER-AGENT,Maps*
 USER-AGENT,Wallet*
 USER-AGENT,com.apple.appstored*
-USER-AGENT,locationd*
 USER-AGENT,passd*
 USER-AGENT,Music*
 USER-AGENT,AppleNews*
