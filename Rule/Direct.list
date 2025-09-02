@@ -16,11 +16,7 @@ DOMAIN-SUFFIX,iphonesubmissions.apple.com
 DOMAIN-SUFFIX,is1-ssl.mzstatic.com
 #Test
 DOMAIN-KEYWORD,apple-support.akadns.net
-DOMAIN-KEYWORD,apple.com.akadns.net
-DOMAIN-KEYWORD,apple.com.edgekey.net
 DOMAIN-KEYWORD,buy.itunes.apple.com
-DOMAIN-KEYWORD,smp-device
-DOMAIN-KEYWORD,testflight
 USER-AGENT,*FindMyiPhone?
 USER-AGENT,*Music?
 USER-AGENT,*WeatherFoundation*
