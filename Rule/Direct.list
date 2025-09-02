@@ -35,8 +35,6 @@ USER-AGENT,Wallet*
 USER-AGENT,com.apple.Maps
 USER-AGENT,com.apple.appstored*
 USER-AGENT,fmflocatord*
-USER-AGENT,geod*
-USER-AGENT,locationd*
 USER-AGENT,passd*
 USER-AGENT,Music*
 USER-AGENT,AppleNews*
