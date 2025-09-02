@@ -21,7 +21,6 @@ USER-AGENT,FindMyFriends*
 USER-AGENT,FindMyiPhone*
 USER-AGENT,Maps*
 USER-AGENT,Wallet*
-USER-AGENT,com.apple.appstored*
 USER-AGENT,passd*
 USER-AGENT,Music*
 USER-AGENT,AppleNews*
