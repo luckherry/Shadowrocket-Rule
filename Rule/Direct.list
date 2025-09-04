@@ -6,12 +6,23 @@ DOMAIN-SUFFIX,mac.com
 DOMAIN-SUFFIX,me.com
 DOMAIN-SUFFIX,mesu.apple.com
 DOMAIN-SUFFIX,time.apple.com
-#weather
+#Apple Weather
 DOMAIN-SUFFIX,wps.apple.com
-#location
+#Location
 DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
 DOMAIN-KEYWORD,ls.apple.com
-#debug
+#Debug
 DOMAIN-SUFFIX,iphonesubmissions.apple.com
- #Apple meida
+#Apple Media
 DOMAIN-SUFFIX,is1-ssl.mzstatic.com
+#Apple Music
+DOMAIN,aod-ssl.itunes.apple.com
+DOMAIN,aod.itunes.apple.com
+DOMAIN,audio-ssl.itunes.apple.com
+DOMAIN,audio.itunes.apple.com
+DOMAIN,mvod.itunes.apple.com
+DOMAIN,streamingaudio.itunes.apple.com
+DOMAIN-SUFFIX,applemusic.com
+DOMAIN-SUFFIX,blobstore.apple.com
+DOMAIN-SUFFIX,music.apple.com
+USER-AGENT,Music*
