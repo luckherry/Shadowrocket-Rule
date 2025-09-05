@@ -334,3 +334,10 @@ DOMAIN-SUFFIX,wo.com.cn
 DOMAIN-SUFFIX,wobaif.com
 DOMAIN-SUFFIX,wom186.com
 IP-CIDR,113.200.56.63/32,no-resolve
+
+# Keep
+DOMAIN-SUFFIX,calorietech.com
+DOMAIN-SUFFIX,gotokeep.com
+DOMAIN-SUFFIX,keep.com
+DOMAIN-SUFFIX,keep.com.cn
+DOMAIN-SUFFIX,keepcdn.com
