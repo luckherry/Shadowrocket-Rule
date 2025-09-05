@@ -317,3 +317,9 @@ DOMAIN-SUFFIX,wusuobuneng.cn
 DOMAIN-SUFFIX,wusuobuneng.com
 DOMAIN-SUFFIX,wusuobuneng.com.cn
 DOMAIN-SUFFIX,wusuobuneng.org
+
+#中國新聞網
+DOMAIN-SUFFIX,chinanews.com
+DOMAIN-SUFFIX,chinanews.com.cn
+DOMAIN-SUFFIX,cns.com.cn
+DOMAIN-SUFFIX,ecns.cn
