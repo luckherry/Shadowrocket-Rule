@@ -535,3 +535,15 @@ DOMAIN-SUFFIX,avlyun.com
 DOMAIN-SUFFIX,avlyun.net
 DOMAIN-SUFFIX,avlyun.org
 DOMAIN-SUFFIX,cloud-backup.com.cn
+
+#百分點
+DOMAIN-SUFFIX,baifendian.com
+DOMAIN-SUFFIX,bfdcdn.com
+DOMAIN-SUFFIX,bfdcloud.com
+DOMAIN-SUFFIX,blingoffice.com
+DOMAIN-SUFFIX,marimall.cn
+DOMAIN-SUFFIX,mediaforce.cn
+DOMAIN-SUFFIX,pdeepmatrix.com
+DOMAIN-SUFFIX,percent.cn
+DOMAIN-SUFFIX,pertalk.cn
+DOMAIN-SUFFIX,xworld.net.cn
