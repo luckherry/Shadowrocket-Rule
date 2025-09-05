@@ -154,7 +154,7 @@ IP-CIDR,::ffff:60.171.183.161/128,no-resolve
 IP-CIDR,::ffff:60.171.183.186/128,no-resolve
 IP-CIDR,::ffff:60.171.183.98/128,no-resolve
 
-#NetEaseMusic
+#网易云音樂
 DOMAIN,netease.ugcvideoss.ourdvs.com
 DOMAIN-SUFFIX,163yun.com
 DOMAIN-SUFFIX,api.iplay.163.com
@@ -185,8 +185,3 @@ IP-CIDR,47.100.127.239/32,no-resolve
 IP-CIDR,59.111.128.0/17,no-resolve
 IP-CIDR,59.111.19.33/32,no-resolve
 IP-CIDR,59.111.21.14/31,no-resolve
-
-
-DOMAIN-SUFFIX,zggbdszt.com.cn
-DOMAIN-SUFFIX,zggbdszt.net.cn
-DOMAIN-SUFFIX,zygbdszt.net.cn
