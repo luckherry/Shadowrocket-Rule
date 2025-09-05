@@ -6,7 +6,9 @@ DOMAIN-SUFFIX,mac.com
 DOMAIN-SUFFIX,me.com
 DOMAIN-SUFFIX,mesu.apple.com
 DOMAIN-SUFFIX,time.apple.com
+# 9月6新增這兩條
 DOMAIN-SUFFIX,pancake.apple.com
+DOMAIN-SUFFIX,api2.smoot.apple.com
 #Apple Weather
 DOMAIN-SUFFIX,wps.apple.com
 #Location
