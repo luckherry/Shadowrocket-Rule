@@ -1,58 +1,32 @@
-# GitHub - Main Site
-DOMAIN-SUFFIX,github.com
-IP-CIDR,140.82.112.3/32
-IP-CIDR,140.82.112.4/32
-IP-CIDR,140.82.112.0/20
-
-# GitHub API
-DOMAIN-SUFFIX,api.github.com
-IP-CIDR,140.82.114.5/32
-IP-CIDR,140.82.114.6/32
-
-# GitHub Pages
-DOMAIN-SUFFIX,github.io
-IP-CIDR,185.199.108.153/32
-IP-CIDR,185.199.109.153/32
-IP-CIDR,185.199.110.153/32
-IP-CIDR,185.199.111.153/32
-IP-CIDR,185.199.108.0/22
-
-# GitHub Raw Content
-DOMAIN-SUFFIX,raw.githubusercontent.com
-IP-CIDR,185.199.108.133/32
-IP-CIDR,185.199.109.133/32
-
-# GitHub Assets (Static Resources)
-DOMAIN-SUFFIX,assets-cdn.github.com
-IP-CIDR,185.199.108.153/32
-IP-CIDR,185.199.109.153/32
-
-# GitHub User Content
-DOMAIN-SUFFIX,user-images.githubusercontent.com
-IP-CIDR,185.199.108.133/32
-IP-CIDR,185.199.109.133/32
-
-# GitHub Status
-DOMAIN-SUFFIX,githubstatus.com
-IP-CIDR,185.199.108.153/32
-IP-CIDR,185.199.109.153/32
-
-# GitHub Docs
-DOMAIN-SUFFIX,docs.github.com
-IP-CIDR,140.82.112.3/32
-IP-CIDR,140.82.112.4/32
-
-# GitHub Packages
+# GitHub
+DOMAIN-SUFFIX,atom.io
+DOMAIN-SUFFIX,dependabot.com
 DOMAIN-SUFFIX,ghcr.io
-IP-CIDR,140.82.112.3/32
-IP-CIDR,140.82.112.4/32
-
-# GitHub Webhooks
-DOMAIN-SUFFIX,hooks.github.com
-IP-CIDR,192.30.252.0/22
-IP-CIDR,143.55.64.0/20
-
-# GitHub Actions
-DOMAIN-SUFFIX,actions.github.com
-IP-CIDR,192.30.252.0/22
-IP-CIDR,140.82.112.0/20
+DOMAIN-SUFFIX,git.io
+DOMAIN-SUFFIX,github-atom-io-herokuapp-com.freetls.fastly.net
+DOMAIN-SUFFIX,github-avatars.oss-cn-hongkong.aliyuncs.com
+DOMAIN-SUFFIX,github-cloud.s3.amazonaws.com
+DOMAIN-SUFFIX,github.blog
+DOMAIN-SUFFIX,github.com
+DOMAIN-SUFFIX,github.community
+DOMAIN-SUFFIX,github.dev
+DOMAIN-SUFFIX,github.io
+DOMAIN-SUFFIX,githubapp.com
+DOMAIN-SUFFIX,githubassets.com
+DOMAIN-SUFFIX,githubcopilot.com
+DOMAIN-SUFFIX,githubhackathon.com
+DOMAIN-SUFFIX,githubnext.com
+DOMAIN-SUFFIX,githubpreview.dev
+DOMAIN-SUFFIX,githubstatus.com
+DOMAIN-SUFFIX,githubuniverse.com
+DOMAIN-SUFFIX,githubusercontent.com
+DOMAIN-SUFFIX,myoctocat.com
+DOMAIN-SUFFIX,npm.community
+DOMAIN-SUFFIX,npmjs.com
+DOMAIN-SUFFIX,npmjs.org
+DOMAIN-SUFFIX,opensource.guide
+DOMAIN-SUFFIX,rawgit.com
+DOMAIN-SUFFIX,rawgithub.com
+DOMAIN-SUFFIX,repo.new
+DOMAIN-SUFFIX,thegithubshop.com
+DOMAIN-KEYWORD,github
