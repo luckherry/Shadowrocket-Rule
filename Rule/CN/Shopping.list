@@ -1,15 +1,15 @@
-#拼多多
+# 拼多多
 DOMAIN-SUFFIX,pddpic.com
 DOMAIN-SUFFIX,pinduoduo.com
 DOMAIN-SUFFIX,yangkeduo.com
 
-#唯品會
+# 唯品會
 DOMAIN-SUFFIX,appsimg.com
 DOMAIN-SUFFIX,appvipshop.com
 DOMAIN-SUFFIX,vip.com
 DOMAIN-SUFFIX,vipstatic.com
 
-#小米
+# 小米
 DOMAIN-SUFFIX,408399.com
 DOMAIN-SUFFIX,408399.net
 DOMAIN-SUFFIX,816798.net
@@ -374,7 +374,7 @@ IP-CIDR,72.254.0.0/16,no-resolve
 IP-CIDR,8.128.0.0/10,no-resolve
 IP-CIDR,8.208.0.0/12,no-resolve
 
-#大麥網
+# 大麥網
 DOMAIN-SUFFIX,baotoo.com
 DOMAIN-SUFFIX,damai.cn
 DOMAIN-SUFFIX,damaicdn.cn
@@ -387,6 +387,20 @@ DOMAIN-SUFFIX,piao.com.cn
 DOMAIN-SUFFIX,piaogroup.com
 DOMAIN-SUFFIX,yanchupiaojia.com
 
-#當當
+# 當當
 DOMAIN-SUFFIX,dangdang.com
 DOMAIN-SUFFIX,ddimg.cn
+
+# 盒馬
+DOMAIN-SUFFIX,freshhema.com
+DOMAIN-SUFFIX,hemaapi.cn
+DOMAIN-SUFFIX,hemamax.com
+DOMAIN-SUFFIX,hemaopen.cn
+DOMAIN-SUFFIX,hemaos.com
+DOMAIN-SUFFIX,hemashare.cn
+DOMAIN-SUFFIX,marioall.com
+DOMAIN-SUFFIX,marioin.com
+DOMAIN-SUFFIX,mariowap.com
+DOMAIN-SUFFIX,rexpos.cn
+DOMAIN-SUFFIX,rextech.cn
+DOMAIN-SUFFIX,shyhhema.com
