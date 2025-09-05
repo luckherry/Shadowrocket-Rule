@@ -1146,3 +1146,10 @@ IP-CIDR,61.243.144.0/24,no-resolve
 IP-CIDR,61.48.115.0/24,no-resolve
 IP-CIDR,61.54.121.0/24,no-resolve
 IP-CIDR,61.54.7.0/24,no-resolve
+
+# 咪咕
+DOMAIN-SUFFIX,cmvideo.cn
+DOMAIN-SUFFIX,migu.cn
+DOMAIN-SUFFIX,miguvideo.com
+USER-AGENT,%E5%92%AA%E5%92%95%E8%A7%86%E9%A2%91
+USER-AGENT,MiguVideo*
