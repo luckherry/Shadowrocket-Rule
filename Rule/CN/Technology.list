@@ -547,3 +547,8 @@ DOMAIN-SUFFIX,pdeepmatrix.com
 DOMAIN-SUFFIX,percent.cn
 DOMAIN-SUFFIX,pertalk.cn
 DOMAIN-SUFFIX,xworld.net.cn
+
+# Bootcss
+DOMAIN-SUFFIX,bootcdn.cn
+DOMAIN-SUFFIX,bootcss.com
+DOMAIN-SUFFIX,phpcomposer.com
