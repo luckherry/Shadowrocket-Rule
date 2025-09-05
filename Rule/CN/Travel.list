@@ -83,3 +83,13 @@ DOMAIN-SUFFIX,mojichina.com
 DOMAIN-SUFFIX,mojitest.com
 DOMAIN-SUFFIX,moweather.com
 DOMAIN-SUFFIX,xiaomo.cn
+
+# 同程
+DOMAIN-SUFFIX,17u.cn
+DOMAIN-SUFFIX,17u.net
+DOMAIN-SUFFIX,17usoft.com
+DOMAIN-SUFFIX,17usoft.net
+DOMAIN-SUFFIX,40017.cn
+DOMAIN-SUFFIX,elong.com
+DOMAIN-SUFFIX,elongstatic.com
+DOMAIN-SUFFIX,ly.com
