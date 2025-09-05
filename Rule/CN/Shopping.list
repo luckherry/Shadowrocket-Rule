@@ -457,12 +457,6 @@ DOMAIN-SUFFIX,mzres.com
 DOMAIN-SUFFIX,mzssp.cn
 
 # Oppo
-# NAME: OPPO
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-06 09:17:37
-# DOMAIN-SUFFIX: 56
-# TOTAL: 56
 DOMAIN-SUFFIX,aibreeno.com
 DOMAIN-SUFFIX,allawnfs.com
 DOMAIN-SUFFIX,allawno.com
@@ -577,3 +571,19 @@ DOMAIN-SUFFIX,yifubao.com
 DOMAIN-SUFFIX,vancl.com
 DOMAIN-SUFFIX,vanclimg.com
 DOMAIN-SUFFIX,vcimg.com
+
+# Vivo
+DOMAIN-SUFFIX,bbk.com
+DOMAIN-SUFFIX,bbktel.com.cn
+DOMAIN-SUFFIX,funtouchos.com
+DOMAIN-SUFFIX,gdbbk.com
+DOMAIN-SUFFIX,iqoo.com
+DOMAIN-SUFFIX,vivo.cn
+DOMAIN-SUFFIX,vivo.com
+DOMAIN-SUFFIX,vivo.com.cn
+DOMAIN-SUFFIX,vivo.xyz
+DOMAIN-SUFFIX,vivoglobal.com
+DOMAIN-SUFFIX,vivosjpt.com
+DOMAIN-SUFFIX,vivotc.com
+DOMAIN-SUFFIX,vmic.xyz
+DOMAIN-SUFFIX,vsearch.club
