@@ -1174,3 +1174,10 @@ DOMAIN-SUFFIX,pptvnet.com
 DOMAIN-SUFFIX,pptvyun.com
 DOMAIN-SUFFIX,snrent.cn
 DOMAIN-SUFFIX,synacast.com
+
+# 虾米音樂
+DOMAIN-SUFFIX,xiami.com
+DOMAIN-SUFFIX,xiami.fm
+DOMAIN-SUFFIX,xiami.net
+USER-AGENT,walkman*
+USER-AGENT,xiami*
