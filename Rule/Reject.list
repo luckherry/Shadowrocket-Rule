@@ -1,0 +1,6 @@
+# Explicit REJECT for invalid/multicast ranges
+IP-CIDR,0.0.0.0/8,no-resolve
+IP-CIDR,224.0.0.0/4,no-resolve
+
+# (Optional if you enable IPv6 later)
+# IP-CIDR6,ff00::/8,no-resolve
