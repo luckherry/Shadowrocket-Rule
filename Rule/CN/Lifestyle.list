@@ -48,6 +48,15 @@ DOMAIN-SUFFIX,58img.com.cn
 DOMAIN-SUFFIX,58lovepet.com
 DOMAIN-SUFFIX,58peilian.com
 DOMAIN-SUFFIX,58shangban.com
+
+#美團
+DOMAIN-SUFFIX,dianping.com
+DOMAIN-SUFFIX,maoyan.com
+DOMAIN-SUFFIX,meituan.com
+DOMAIN-SUFFIX,meituan.net
+DOMAIN-SUFFIX,mtyun.com
+DOMAIN-SUFFIX,neixin.cn
+DOMAIN-SUFFIX,sankuai.com
 DOMAIN-SUFFIX,58supin.com
 DOMAIN-SUFFIX,58uxd.com
 DOMAIN-SUFFIX,58v5.cn
