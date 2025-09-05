@@ -30,3 +30,40 @@ DOMAIN-SUFFIX,rawgithub.com
 DOMAIN-SUFFIX,repo.new
 DOMAIN-SUFFIX,thegithubshop.com
 DOMAIN-KEYWORD,github
+
+# GitHub Extra
+DOMAIN-SUFFIX,github.map.fastly.net
+DOMAIN-SUFFIX,github.global.ssl.fastly.net
+DOMAIN-SUFFIX,gist.github.com
+DOMAIN-SUFFIX,ghactions.org
+
+# GitLab
+DOMAIN-SUFFIX,gitlab.com
+DOMAIN-SUFFIX,gitlab.io
+DOMAIN-SUFFIX,about.gitlab.com
+DOMAIN-SUFFIX,docs.gitlab.com
+DOMAIN-SUFFIX,registry.gitlab.com
+DOMAIN-SUFFIX,packages.gitlab.com
+DOMAIN-SUFFIX,uploads.gitlab-static.net
+
+# Cloudflare
+DOMAIN-SUFFIX,cloudflare.com
+DOMAIN-SUFFIX,cloudflareapi.com
+DOMAIN-SUFFIX,workers.dev
+DOMAIN-SUFFIX,pages.dev
+DOMAIN-SUFFIX,cf-ipfs.com
+
+# Bitbucket
+DOMAIN-SUFFIX,bitbucket.org
+DOMAIN-SUFFIX,bitbucket.io
+
+# SourceForge
+DOMAIN-SUFFIX,sourceforge.net
+
+# jsDelivr
+DOMAIN-SUFFIX,jsdelivr.net
+
+# FastGit / GitHub Mirrors
+DOMAIN-SUFFIX,fastgit.org
+DOMAIN-SUFFIX,fastgit.xyz
+DOMAIN-SUFFIX,ghproxy.com
