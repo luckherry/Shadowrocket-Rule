@@ -502,3 +502,8 @@ DOMAIN-SUFFIX,p6-juejin.byteimg.com
 DOMAIN-SUFFIX,p7-juejin.byteimg.com
 DOMAIN-SUFFIX,p8-juejin.byteimg.com
 DOMAIN-SUFFIX,p9-juejin.byteimg.com
+
+# 中国邮政储蓄银行
+DOMAIN-SUFFIX,95580.net
+DOMAIN-SUFFIX,psbc.com
+DOMAIN-SUFFIX,psbcoa.com.cn
