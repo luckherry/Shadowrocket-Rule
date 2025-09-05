@@ -1,4 +1,4 @@
-#DiDi
+# DiDi
 DOMAIN-SUFFIX,apptaxi.com.cn
 DOMAIN-SUFFIX,cxyule.com
 DOMAIN-SUFFIX,didi-food.com
@@ -25,7 +25,7 @@ DOMAIN-SUFFIX,udache.com
 DOMAIN-SUFFIX,xiaojuchefu.cn
 DOMAIN-SUFFIX,xiaojukeji.com
 
-#高德
+# 高德
 DOMAIN-SUFFIX,a-map.cn
 DOMAIN-SUFFIX,a-map.co
 DOMAIN-SUFFIX,a-map.link
@@ -36,7 +36,7 @@ DOMAIN-SUFFIX,anav.com
 DOMAIN-SUFFIX,autonavi.com
 DOMAIN-SUFFIX,gaode.com
 
-#12306
+# 12306
 DOMAIN-SUFFIX,12306.cn
 DOMAIN-SUFFIX,95306.cn
 DOMAIN-SUFFIX,95572.com
@@ -52,3 +52,25 @@ DOMAIN-SUFFIX,nntlj.com
 DOMAIN-SUFFIX,peoplerail.com
 DOMAIN-SUFFIX,rails.cn
 DOMAIN-SUFFIX,tdpress.com
+
+# 飛豬
+DOMAIN-SUFFIX,alitrip.com
+DOMAIN-SUFFIX,asczwa.com
+DOMAIN-SUFFIX,asczxcefsv.com
+DOMAIN-SUFFIX,bcvbw.com
+DOMAIN-SUFFIX,dfkhgj.com
+DOMAIN-SUFFIX,edcdfg.com
+DOMAIN-SUFFIX,ereuiib.com
+DOMAIN-SUFFIX,fdfgdf.cn
+DOMAIN-SUFFIX,feizhu.cn
+DOMAIN-SUFFIX,feizhu.com
+DOMAIN-SUFFIX,fliggy.com
+DOMAIN-SUFFIX,fliggy.hk
+DOMAIN-SUFFIX,iuynfg.com
+DOMAIN-SUFFIX,jhgtgb.com
+DOMAIN-SUFFIX,mnbvbqw.com
+DOMAIN-SUFFIX,ujmjk.com
+DOMAIN-SUFFIX,vfvdf.com
+DOMAIN-SUFFIX,xcvvs.com
+DOMAIN-SUFFIX,zxczw.com
+DOMAIN-SUFFIX,zzxca.com
