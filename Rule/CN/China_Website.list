@@ -1,30 +1,3 @@
-# 滴滴出行
-DOMAIN-SUFFIX,apptaxi.com.cn
-DOMAIN-SUFFIX,cxyule.com
-DOMAIN-SUFFIX,didi-food.com
-DOMAIN-SUFFIX,didi.cn
-DOMAIN-SUFFIX,didi.xin
-DOMAIN-SUFFIX,didialift.com
-DOMAIN-SUFFIX,didiapp.net.cn
-DOMAIN-SUFFIX,didiaustralia.blog
-DOMAIN-SUFFIX,didichuxing.com
-DOMAIN-SUFFIX,didiglobal.com
-DOMAIN-SUFFIX,didimobility.co.jp
-DOMAIN-SUFFIX,didimobility.com
-DOMAIN-SUFFIX,didiopenapi.com
-DOMAIN-SUFFIX,didiqiche.com
-DOMAIN-SUFFIX,didistatic.com
-DOMAIN-SUFFIX,diditaxi.com
-DOMAIN-SUFFIX,diditaxi.com.cn
-DOMAIN-SUFFIX,didiwuxian.com
-DOMAIN-SUFFIX,didiyun.com
-DOMAIN-SUFFIX,didiyun.org
-DOMAIN-SUFFIX,didiyunapi.com
-DOMAIN-SUFFIX,juyanwenjuan.com
-DOMAIN-SUFFIX,udache.com
-DOMAIN-SUFFIX,xiaojuchefu.cn
-DOMAIN-SUFFIX,xiaojukeji.com
-
 #美图
 DOMAIN-SUFFIX,meipai.com
 DOMAIN-SUFFIX,meitu.com
@@ -832,14 +805,6 @@ DOMAIN-SUFFIX,weibocdn.com
 DOMAIN-KEYWORD,weibo
 
 #字節跳動
-# NAME: ByteDance
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-08-06 02:08:35
-# DOMAIN-SUFFIX: 368
-# IP-CIDR: 1
-# USER-AGENT: 1
-# TOTAL: 370
 DOMAIN-SUFFIX,2333333333333.com
 DOMAIN-SUFFIX,365yg.com
 DOMAIN-SUFFIX,activity-zhendingtech.com
@@ -1212,12 +1177,6 @@ USER-AGENT,TikTok*
 IP-CIDR,114.246.10.65/32,no-resolve
 
 #CCTV
-# NAME: CCTV
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-06 09:17:29
-# DOMAIN-SUFFIX: 37
-# TOTAL: 37
 DOMAIN-SUFFIX,cctv.cn
 DOMAIN-SUFFIX,cctv.com
 DOMAIN-SUFFIX,cctvlib.cn
@@ -1257,12 +1216,6 @@ DOMAIN-SUFFIX,zggbdszt.net.cn
 DOMAIN-SUFFIX,zygbdszt.net.cn
 
 #迅雷
-# NAME: Xunlei
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-06 09:17:29
-# DOMAIN-SUFFIX: 31
-# TOTAL: 31
 DOMAIN-SUFFIX,00cdn.com
 DOMAIN-SUFFIX,155.com
 DOMAIN-SUFFIX,2sonar.com
@@ -1296,12 +1249,6 @@ DOMAIN-SUFFIX,xunlei.com
 DOMAIN-SUFFIX,xunlei.net
 
 #華為
-# NAME: Huawei
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-06 09:17:29
-# DOMAIN-SUFFIX: 160
-# TOTAL: 160
 DOMAIN-SUFFIX,abhouses.com
 DOMAIN-SUFFIX,agconnect.link
 DOMAIN-SUFFIX,aicccloud.com
