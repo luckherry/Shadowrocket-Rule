@@ -303,3 +303,10 @@ DOMAIN-SUFFIX,temyee.com
 DOMAIN-SUFFIX,vdnplus.cn
 DOMAIN-SUFFIX,vdnplus.com
 DOMAIN-SUFFIX,vdnplus.net
+
+# AcFun
+DOMAIN-SUFFIX,acfun.cn
+DOMAIN-SUFFIX,acfun.com
+DOMAIN-SUFFIX,acfun.tv
+DOMAIN-SUFFIX,aixifan.com
+USER-AGENT,AcFun*
