@@ -124,3 +124,7 @@ DOMAIN-SUFFIX,toursbms.com
 DOMAIN-SUFFIX,trip.com
 DOMAIN-SUFFIX,tripcdn.com
 DOMAIN-SUFFIX,vipdlt.com
+
+# 中國國航
+DOMAIN-SUFFIX,airchina.com.cn
+DOMAIN-SUFFIX,airchinacargo.com
