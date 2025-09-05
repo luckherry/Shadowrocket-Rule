@@ -328,3 +328,19 @@ DOMAIN-SUFFIX,huya.com
 DOMAIN-SUFFIX,huyagame.cn
 DOMAIN-SUFFIX,peiwanlu.com
 DOMAIN-SUFFIX,snapplay.com
+
+# 簡書
+DOMAIN-SUFFIX,baijii.com
+DOMAIN-SUFFIX,jianshu.com
+DOMAIN-SUFFIX,jianshu.io
+DOMAIN-SUFFIX,jianshuapi.com
+DOMAIN-SUFFIX,shengmingfa.com
+
+# 晋江文学
+DOMAIN-SUFFIX,chaba123.com
+DOMAIN-SUFFIX,jjwxc.cn
+DOMAIN-SUFFIX,jjwxc.com
+DOMAIN-SUFFIX,jjwxc.net
+DOMAIN-SUFFIX,jjwxc.org
+DOMAIN-SUFFIX,jjycw.net
+DOMAIN-SUFFIX,robook.com
