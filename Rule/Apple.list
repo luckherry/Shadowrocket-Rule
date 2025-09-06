@@ -146,11 +146,9 @@ DOMAIN,fmipmobile.icloud.com
 DOMAIN,statici.icloud.com
 # iCloudPrivateRelay
 DOMAIN,mask-api.fe.apple-dns.net
-DOMAIN,mask-api.icloud.com
 DOMAIN,mask-t.apple-dns.net
 DOMAIN,mask.apple-dns.net
 DOMAIN-SUFFIX,mask-h2.icloud.com
-DOMAIN-SUFFIX,mask.icloud.com
 # AppleDev
 DOMAIN-SUFFIX,apple-cloudkit.com
 DOMAIN-SUFFIX,apple-mapkit.com
