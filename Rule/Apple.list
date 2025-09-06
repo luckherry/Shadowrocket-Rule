@@ -1,16 +1,11 @@
 #APPLE
 DOMAIN,www.apple.com
-DOMAIN-SUFFIX,appstore.com
-DOMAIN-SUFFIX,itunes.apple.com
+#DOMAIN-SUFFIX,appstore.com
+#DOMAIN-SUFFIX,itunes.apple.com
 DOMAIN-SUFFIX,mac.com
 DOMAIN-SUFFIX,me.com
 DOMAIN-SUFFIX,mesu.apple.com
 DOMAIN-SUFFIX,time.apple.com
-# 9月6新增這兩條
-DOMAIN-SUFFIX,pancake.apple.com
-DOMAIN-SUFFIX,api2.smoot.apple.com
-#Apple Weather
-DOMAIN-SUFFIX,wps.apple.com
 #Location
 DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
 DOMAIN-KEYWORD,ls.apple.com
@@ -39,3 +34,16 @@ DOMAIN,uts-api.itunes.apple.com
 DOMAIN-SUFFIX,tv.apple.com
 USER-AGENT,AppleTV*
 USER-AGENT,com.apple.tv*
+# 9月6新增這兩條
+DOMAIN-SUFFIX,pancake.apple.com
+DOMAIN-SUFFIX,api2.smoot.apple.com
+#Apple Weather
+DOMAIN-SUFFIX,wps.apple.com
+# APPLE ID
+DOMAIN,appleid.apple.com
+DOMAIN,appleid.cdn-apple.com
+DOMAIN,gsa.apple.com
+DOMAIN,idmsa.apple.com
+# APP Store
+DOMAIN,apps.apple.com
+DOMAIN,itunes.apple.com
