@@ -1,3 +1,6 @@
+DOMAIN-SUFFIX,ocsp2.apple.com
+DOMAIN-SUFFIX,fba.apple.com
+DOMAIN-SUFFIX,api-glb-aapse1c.smoot.apple.com
 DOMAIN-SUFFIX,bag.itunes.apple.com
 DOMAIN-SUFFIX,fpinit.itunes.apple.com
 DOMAIN-SUFFIX,weatherkit.apple.com
