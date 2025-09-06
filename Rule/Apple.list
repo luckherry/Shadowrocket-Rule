@@ -1,4 +1,4 @@
-#APPLE
+# APPLE
 DOMAIN,www.apple.com
 #DOMAIN-SUFFIX,appstore.com
 #DOMAIN-SUFFIX,itunes.apple.com
@@ -6,14 +6,11 @@ DOMAIN-SUFFIX,mac.com
 DOMAIN-SUFFIX,me.com
 DOMAIN-SUFFIX,mesu.apple.com
 DOMAIN-SUFFIX,time.apple.com
-#Location
-DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
-DOMAIN-KEYWORD,ls.apple.com
-#Debug
+# Debug
 DOMAIN-SUFFIX,iphonesubmissions.apple.com
 #Apple Media
 DOMAIN-SUFFIX,is1-ssl.mzstatic.com
-#Apple Music
+# Music
 DOMAIN,aod-ssl.itunes.apple.com
 DOMAIN,aod.itunes.apple.com
 DOMAIN,audio-ssl.itunes.apple.com
@@ -24,7 +21,7 @@ DOMAIN-SUFFIX,applemusic.com
 DOMAIN-SUFFIX,blobstore.apple.com
 DOMAIN-SUFFIX,music.apple.com
 USER-AGENT,Music*
-#Apple TV
+# TV
 DOMAIN,hls-amt.itunes.apple.com
 DOMAIN,hls.itunes.apple.com
 DOMAIN,np-edge.itunes.apple.com
@@ -37,7 +34,7 @@ USER-AGENT,com.apple.tv*
 # 9月6新增這兩條
 DOMAIN-SUFFIX,pancake.apple.com
 DOMAIN-SUFFIX,api2.smoot.apple.com
-#Apple Weather
+# Weather
 DOMAIN-SUFFIX,wps.apple.com
 # APPLE ID
 DOMAIN,appleid.apple.com
@@ -47,3 +44,19 @@ DOMAIN,idmsa.apple.com
 # APP Store
 DOMAIN,apps.apple.com
 DOMAIN,itunes.apple.com
+# TestFlight
+DOMAIN,beta.apple.com
+DOMAIN,testflight.apple.com
+DOMAIN-KEYWORD,testflight
+# Fitness+
+DOMAIN,amp-api.fitness.apple.com
+DOMAIN,hls-svod.itunes.apple.com
+# Mail
+DOMAIN-SUFFIX,mail.icloud.com.cn
+DOMAIN-SUFFIX,mail.me.com
+# News
+DOMAIN,gspe1-ssl.ls.apple.com
+DOMAIN,news-client-search.apple.com
+USER-AGENT,AppleNews*
+USER-AGENT,com.apple.news*
+# 
