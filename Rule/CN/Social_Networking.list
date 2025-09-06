@@ -444,3 +444,9 @@ DOMAIN,tieba-ares.cdn.bcebos.com
 DOMAIN,tiebac.baidu.com
 DOMAIN,tiebapic.baidu.com
 DOMAIN-SUFFIX,tieba.baidu.com
+
+# 小紅書
+DOMAIN-SUFFIX,fengkongcloud.com
+DOMAIN-SUFFIX,xhscdn.com
+DOMAIN-SUFFIX,xhscdn.net
+DOMAIN-SUFFIX,xiaohongshu.com
