@@ -46,12 +46,6 @@ DOMAIN-SUFFIX,registry.gitlab.com
 DOMAIN-SUFFIX,packages.gitlab.com
 DOMAIN-SUFFIX,uploads.gitlab-static.net
 
-# Cloudflare
-DOMAIN-SUFFIX,cloudflareapi.com
-DOMAIN-SUFFIX,workers.dev
-DOMAIN-SUFFIX,pages.dev
-DOMAIN-SUFFIX,cf-ipfs.com
-
 # Bitbucket
 DOMAIN-SUFFIX,bitbucket.org
 DOMAIN-SUFFIX,bitbucket.io
