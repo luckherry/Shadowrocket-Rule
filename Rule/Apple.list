@@ -88,6 +88,9 @@ DOMAIN,mask-api.fe.apple-dns.net
 DOMAIN,mask-t.apple-dns.net
 DOMAIN,mask.apple-dns.net
 DOMAIN-SUFFIX,mask-h2.icloud.com
+# 這兩個是 iCloudPrivateRelay 之前懷疑有影響所以刪除,現在再加回
+DOMAIN,mask-api.icloud.com
+DOMAIN-SUFFIX,mask.icloud.com
 # AppleDev
 DOMAIN-SUFFIX,apple-cloudkit.com
 DOMAIN-SUFFIX,apple-mapkit.com
