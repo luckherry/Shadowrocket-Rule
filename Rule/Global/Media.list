@@ -99,3 +99,11 @@ DOMAIN-SUFFIX,pv-cdn.net
 DOMAIN-KEYWORD,avoddashs
 USER-AGENT,InstantVideo.US*
 USER-AGENT,Prime%20Video*
+
+# 巴哈姆特
+USER-AGENT,Anime*
+DOMAIN,bahamut.akamaized.net
+DOMAIN,gamer-cds.cdn.hinet.net
+DOMAIN,gamer2-cds.cdn.hinet.net
+DOMAIN-SUFFIX,bahamut.com.tw
+DOMAIN-SUFFIX,gamer.com.tw
