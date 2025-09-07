@@ -15,8 +15,8 @@ DOMAIN-SUFFIX,ls.apple.com
 #上為自己發現
 # APPLE
 DOMAIN,www.apple.com
-#DOMAIN-SUFFIX,appstore.com
-#DOMAIN-SUFFIX,itunes.apple.com
+DOMAIN-SUFFIX,appstore.com
+DOMAIN-SUFFIX,itunes.apple.com
 DOMAIN-SUFFIX,mac.com
 DOMAIN-SUFFIX,me.com
 DOMAIN-SUFFIX,mesu.apple.com
