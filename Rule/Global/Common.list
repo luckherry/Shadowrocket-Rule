@@ -628,3 +628,43 @@ IP-ASN,44907,no-resolve
 IP-ASN,59930,no-resolve
 IP-ASN,62014,no-resolve
 IP-ASN,62041,no-resolve
+
+# Core X/Twitter Domains
+DOMAIN-SUFFIX,x.com
+DOMAIN-SUFFIX,twitter.com
+DOMAIN-SUFFIX,t.co
+DOMAIN-SUFFIX,twimg.com
+DOMAIN-SUFFIX,api.x.com
+DOMAIN-SUFFIX,premium.x.com
+DOMAIN-SUFFIX,help.x.com
+DOMAIN-SUFFIX,business.x.com
+DOMAIN-SUFFIX,cdn.x.com
+DOMAIN-SUFFIX,tweetdeck.com
+DOMAIN-SUFFIX,ads-twitter.com
+DOMAIN-SUFFIX,twitterflightschool.com
+DOMAIN-SUFFIX,twitterinc.com
+DOMAIN-SUFFIX,twttr.com
+DOMAIN-SUFFIX,twtrdns.net
+DOMAIN-SUFFIX,twvid.com
+DOMAIN-KEYWORD,twitter
+DOMAIN-KEYWORD,x
+
+# xAI-Related Domains (Optional)
+DOMAIN-SUFFIX,x.ai
+DOMAIN-SUFFIX,grok.com
+DOMAIN-SUFFIX,grok.x.ai
+# Deprecated or Potentially Obsolete (Verify Before Including)
+# DOMAIN-SUFFIX,periscope.tv
+# DOMAIN-SUFFIX,pscp.tv
+# DOMAIN-SUFFIX,vine.co
+# DOMAIN-SUFFIX,twitpic.com
+# IP Ranges (Verified and Suggested)
+IP-CIDR,192.133.76.0/22,no-resolve
+IP-CIDR,199.59.148.0/22,no-resolve
+IP-CIDR,199.96.56.0/21,no-resolve
+IP-CIDR,202.160.128.0/22,no-resolve
+IP-CIDR,209.237.192.0/19,no-resolve
+IP-CIDR,69.195.160.0/19,no-resolve
+IP-CIDR,104.244.42.0/24,no-resolve  # Suggested addition (verify)
+IP-CIDR,146.75.0.0/16,no-resolve    # Suggested addition for Fastly CDN (verify)
+IP6-CIDR,2001:4998::/32,no-resolve  # Suggested IPv6 addition (verify)
