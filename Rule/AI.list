@@ -3,9 +3,10 @@ DOMAIN-SUFFIX,apple-relay.apple.com
 DOMAIN-SUFFIX,apple-relay.cloudflare.com
 DOMAIN-KEYWORD,apple-relay
 DOMAIN-SUFFIX,gateway.icloud.com
+DOMAIN-SUFFIX,metrics.icloud.com
 DOMAIN-SUFFIX,seed.siri.apple.com
-DOMAIN-SUFFIX,gs-loc.apple.com
-DOMAIN-SUFFIX,gs-loc-cn.apple.com
+#DOMAIN-SUFFIX,gs-loc.apple.com
+#DOMAIN-SUFFIX,gs-loc-cn.apple.com
 IP-CIDR,172.224.177.0/24,no-resolve
 IP-CIDR,17.0.0.0/8,no-resolve
 IP-CIDR,43.163.178.196,no-resolve
