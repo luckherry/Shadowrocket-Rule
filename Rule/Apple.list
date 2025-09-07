@@ -49,7 +49,7 @@ DOMAIN,uts-api.itunes.apple.com
 DOMAIN-SUFFIX,tv.apple.com
 USER-AGENT,AppleTV*
 USER-AGENT,com.apple.tv*
-# 9月6新增這兩條
+# 2025年9月6新增這兩條
 DOMAIN-SUFFIX,pancake.apple.com
 DOMAIN-SUFFIX,api2.smoot.apple.com
 # Weather
@@ -1129,3 +1129,5 @@ DOMAIN,appleid.apple.com
 DOMAIN,appleid.cdn-apple.com
 DOMAIN,gsa.apple.com
 DOMAIN,idmsa.apple.com
+# 2025年9月7日
+DOMAIN-SUFFIX,aaplimg.com
