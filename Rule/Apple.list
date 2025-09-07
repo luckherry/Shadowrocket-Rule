@@ -13,6 +13,9 @@ DOMAIN-SUFFIX,fpinit.itunes.apple.com
 DOMAIN-SUFFIX,weatherkit.apple.com
 DOMAIN-SUFFIX,ls.apple.com
 #上為自己發現
+# APPLE MAP 在AI.list里搬過來,發現跟地圖有關
+DOMAIN-SUFFIX,gs-loc.apple.com
+DOMAIN-SUFFIX,gs-loc-cn.apple.com
 # APPLE
 DOMAIN,www.apple.com
 DOMAIN-SUFFIX,appstore.com
