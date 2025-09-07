@@ -1124,10 +1124,5 @@ DOMAIN-SUFFIX,wholesalefine.com
 DOMAIN-SUFFIX,wholesaleonlinemart.com
 DOMAIN-SUFFIX,worldcoinpay.com
 DOMAIN-SUFFIX,yourmonsterbeats.com
-# Apple id
-DOMAIN,appleid.apple.com
-DOMAIN,appleid.cdn-apple.com
-DOMAIN,gsa.apple.com
-DOMAIN,idmsa.apple.com
 # 2025年9月7日
 DOMAIN-SUFFIX,aaplimg.com
