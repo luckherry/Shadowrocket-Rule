@@ -1,4 +1,12 @@
 # Commoc 通常走Direct 國內走香港
+
+# 富途牛牛
+DOMAIN-SUFFIX,futunn.com 
+DOMAIN-SUFFIX,futuhk.com 
+IP-CIDR,104.18.20.0/24 
+IP-CIDR,23.78.64.0/24 
+IP-CIDR,47.254.79.0/24
+
 # Google
 DOMAIN,voice.telephony.goog
 DOMAIN-SUFFIX,0emm.com
