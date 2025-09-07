@@ -668,3 +668,98 @@ IP-CIDR,69.195.160.0/19,no-resolve
 IP-CIDR,104.244.42.0/24,no-resolve  # Suggested addition (verify)
 IP-CIDR,146.75.0.0/16,no-resolve    # Suggested addition for Fastly CDN (verify)
 IP6-CIDR,2001:4998::/32,no-resolve  # Suggested IPv6 addition (verify)
+
+# PayPal
+# Core PayPal Domains
+DOMAIN-SUFFIX,paypal.com
+DOMAIN-SUFFIX,paypal.me
+DOMAIN-SUFFIX,paypalobjects.com
+DOMAIN-SUFFIX,paypalcommunity.com
+DOMAIN-SUFFIX,paypalcredit.com
+DOMAIN-SUFFIX,paypalhere.com
+DOMAIN-SUFFIX,paypal-prepaid.com
+DOMAIN-SUFFIX,paypal-crypto.com
+DOMAIN-SUFFIX,paypal-checkout.com
+DOMAIN-SUFFIX,paypal-invoicing.com
+DOMAIN-SUFFIX,paypal-giving.com
+DOMAIN-SUFFIX,paypalgivingfund.org
+DOMAIN-SUFFIX,paypal-marketing.com
+DOMAIN-SUFFIX,paypal-support.com
+DOMAIN-SUFFIX,paypal-signin.com
+DOMAIN-SUFFIX,paypal-login.com
+DOMAIN-SUFFIX,paypal-business.com
+DOMAIN-SUFFIX,paypal-corp.com
+# Regional Domains
+DOMAIN-SUFFIX,paypal.com.hk
+DOMAIN-SUFFIX,paypal.com.sg
+DOMAIN-SUFFIX,paypal.jp
+DOMAIN-SUFFIX,paypal.ca
+DOMAIN-SUFFIX,paypal.com.au
+DOMAIN-SUFFIX,paypal.co.uk
+DOMAIN-SUFFIX,paypal.de
+DOMAIN-SUFFIX,paypal.fr
+# Subsidiaries
+DOMAIN-SUFFIX,venmo.com
+DOMAIN-SUFFIX,braintreegateway.com
+DOMAIN-SUFFIX,braintreepayments.com
+DOMAIN-SUFFIX,xoom.com
+DOMAIN-SUFFIX,swiftfinancial.com
+DOMAIN-SUFFIX,loanbuilder.com
+DOMAIN-SUFFIX,simility.com
+# CDN/Cloud Services
+DOMAIN-SUFFIX,paypalcdn.com
+# DOMAIN-SUFFIX,*.cloudflare.com  # Optional, may affect other sites
+# DOMAIN-SUFFIX,*.akamai.net      # Optional, may affect other sites
+# Common Misspellings (Phishing Protection)
+DOMAIN-SUFFIX,paaypal.com
+DOMAIN-SUFFIX,paypaal.com
+DOMAIN-SUFFIX,paypall.com
+DOMAIN-SUFFIX,payypal.com
+DOMAIN-SUFFIX,paipal.com
+DOMAIN-SUFFIX,pavpal.com
+# Deprecated or Verify Before Including
+# DOMAIN-SUFFIX,billmelater.com
+# DOMAIN-SUFFIX,paydiant.com
+# DOMAIN-SUFFIX,anfutong.cn
+# DOMAIN-SUFFIX,anfutong.com
+# DOMAIN-SUFFIX,venmo-touch.com
+# DOMAIN-SUFFIX,theshoppingexpresslane.net
+# DOMAIN-SUFFIX,filipino-music.net
+# Keywords and User-Agent
+DOMAIN-KEYWORD,paypal
+USER-AGENT,PayPal*
+# IP Ranges (Verify Before Use)
+IP-CIDR,173.0.80.0/20,no-resolve
+IP-CIDR,64.4.240.0/21,no-resolve
+IP6-CIDR,2620:0:8c0::/46,no-resolve
+
+# Discord
+DOMAIN-SUFFIX,airhorn.solutions
+DOMAIN-SUFFIX,airhornbot.com
+DOMAIN-SUFFIX,bigbeans.solutions
+DOMAIN-SUFFIX,dis.gd
+DOMAIN-SUFFIX,discord-activities.com
+DOMAIN-SUFFIX,discord-attachments-uploads-prd.storage.googleapis.com
+DOMAIN-SUFFIX,discord.co
+DOMAIN-SUFFIX,discord.com
+DOMAIN-SUFFIX,discord.design
+DOMAIN-SUFFIX,discord.dev
+DOMAIN-SUFFIX,discord.gg
+DOMAIN-SUFFIX,discord.gift
+DOMAIN-SUFFIX,discord.gifts
+DOMAIN-SUFFIX,discord.media
+DOMAIN-SUFFIX,discord.new
+DOMAIN-SUFFIX,discord.store
+DOMAIN-SUFFIX,discord.tools
+DOMAIN-SUFFIX,discordactivities.com
+DOMAIN-SUFFIX,discordapp.com
+DOMAIN-SUFFIX,discordapp.io
+DOMAIN-SUFFIX,discordapp.net
+DOMAIN-SUFFIX,discordapp.page.link
+DOMAIN-SUFFIX,discordcdn.com
+DOMAIN-SUFFIX,discordmerch.com
+DOMAIN-SUFFIX,discordpartygames.com
+DOMAIN-SUFFIX,discordsays.com
+DOMAIN-SUFFIX,discordstatus.com
+DOMAIN-SUFFIX,hammerandchisel.ssl.zendesk.com
+DOMAIN-SUFFIX,watchanimeattheoffice.com
