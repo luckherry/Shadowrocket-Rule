@@ -515,6 +515,7 @@ DOMAIN,v2023.tencentcloudapi.com
 DOMAIN,vod.tencentcloudapi.com
 DOMAIN,vpc.tencentcloudapi.com
 DOMAIN,wss.tencentcloudapi.com
+DOMAIN-SUFFIX,api.weixin.qq.com
 DOMAIN-SUFFIX,1251001040.vod2.myqcloud.com
 DOMAIN-SUFFIX,cloud.tencent.com
 DOMAIN-SUFFIX,cloudapp.tencent.com
