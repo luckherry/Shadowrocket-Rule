@@ -1,9 +1,10 @@
 # Google App
-play.googleapis.com
-discover-pa.googleapis.com
-lens-pa.googleapis.com
-geller-pagoogleapis.com
-oauthaccountmanager.googleapis.com
+DOMAIN-SUFFIX,play.googleapis.com
+DOMAIN-SUFFIX,discover-pa.googleapis.com
+DOMAIN-SUFFIX,lens-pa.googleapis.com
+DOMAIN-SUFFIX,geller-pagoogleapis.com
+DOMAIN-SUFFIX,oauthaccountmanager.googleapis.com
+DOMAIN-KEYWORD,googleapis.com
 
 # Gemini
 DOMAIN,ai.google.dev
