@@ -4,6 +4,8 @@ DOMAIN-SUFFIX,discover-pa.googleapis.com
 DOMAIN-SUFFIX,lens-pa.googleapis.com
 DOMAIN-SUFFIX,geller-pagoogleapis.com
 DOMAIN-SUFFIX,oauthaccountmanager.googleapis.com
+DOMAIN-SUFFIX,xgapromomanager-pa.googleapis.com
+DOMAIN-SUFFIX,connectivitycheck.gstatic.com
 DOMAIN-KEYWORD,googleapis.com
 
 # Gemini
