@@ -1557,6 +1557,30 @@ IP-CIDR,50.22.198.204/30,no-resolve
 IP-CIDR,54.242.0.0/15,no-resolve
 
 # Telegram
+DOMAIN-SUFFIX,cdn-telegram.org,Proxy
+DOMAIN-SUFFIX,comments.app,Proxy
+DOMAIN-SUFFIX,contest.com,Proxy
+DOMAIN-SUFFIX,fragment.com,Proxy
+DOMAIN-SUFFIX,graph.org,Proxy
+DOMAIN-SUFFIX,legra.ph,Proxy
+DOMAIN-SUFFIX,mbrx.app,Proxy
+DOMAIN-SUFFIX,quiz.directory,Proxy
+DOMAIN-SUFFIX,stel.com,Proxy
+DOMAIN-SUFFIX,t.me,Proxy
+DOMAIN-SUFFIX,tdesktop.com,Proxy
+DOMAIN-SUFFIX,telega.one,Proxy
+DOMAIN-SUFFIX,telegra.ph,Proxy
+DOMAIN-SUFFIX,telegram-cdn.org,Proxy
+DOMAIN-SUFFIX,telegram.dog,Proxy
+DOMAIN-SUFFIX,telegram.me,Proxy
+DOMAIN-SUFFIX,telegram.org,Proxy
+DOMAIN-SUFFIX,telegram.space,Proxy
+DOMAIN-SUFFIX,telegramdownload.com,Proxy
+DOMAIN-SUFFIX,telesco.pe,Proxy
+DOMAIN-SUFFIX,tg.dev,Proxy
+DOMAIN-SUFFIX,tx.me,Proxy
+DOMAIN-SUFFIX,usercontent.dev,Proxy
+
 DOMAIN,api.imem.app
 DOMAIN,api.swiftgram.app
 DOMAIN-SUFFIX,cdn-telegram.org
