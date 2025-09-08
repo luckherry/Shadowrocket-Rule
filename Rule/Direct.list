@@ -1,5 +1,6 @@
 # Omron
-DOMAIN-SUFFIX，www.omronconnect.com
+DOMAIN，www.omronconnect.com
+DOMAIN--SUFFIX,omronconnect.com
 
 # Microsoft
 DOMAIN,vsmarketplacebadge.apphb.com
