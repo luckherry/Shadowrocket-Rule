@@ -11,3 +11,6 @@ sso.bocmacau.com
 
 # CTM
 DOMAIN-SUFFIX,imap.macau.ctm.net
+
+#TDM
+DOMAIN-SUFFIX,tdm.com.mo
