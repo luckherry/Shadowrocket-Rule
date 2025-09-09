@@ -1,6 +1,6 @@
 # Google App api
 #DOMAIN-SUFFIX,play.googleapis.com
-DOMAIN-SUFFIX,discover-pa.googleapis.com
+#DOMAIN-SUFFIX,discover-pa.googleapis.com
 #DOMAIN-SUFFIX,lens-pa.googleapis.com
 #DOMAIN-SUFFIX,geller-pagoogleapis.com
 #DOMAIN-SUFFIX,oauthaccountmanager.googleapis.com
