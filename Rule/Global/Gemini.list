@@ -28,3 +28,4 @@ DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
 # Test
 DOMAIN-SUFFIX,play.googleapis.com
 DOMAIN-SUFFIX,oauthaccountmanager.googleapis.com
+DOMAIN-SUFFIX,oauth2.googleapis.com
