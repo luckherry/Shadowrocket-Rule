@@ -7,3 +7,4 @@ IP-CIDR,224.0.0.0/4,no-resolve
 
 # Other
 DOMAIN-SUFFIX,cdn.nmsl.sb
+DOMAIN-SUFFIX,cm-sub.pz.pe
