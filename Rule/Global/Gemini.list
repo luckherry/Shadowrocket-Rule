@@ -24,3 +24,7 @@ DOMAIN-SUFFIX,deepmind.google
 DOMAIN-SUFFIX,gemini.google.com
 DOMAIN-SUFFIX,generativeai.google
 DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+
+# Test
+DOMAIN-SUFFIX,play.googleapis.com
+DOMAIN-SUFFIX,oauthaccountmanager.googleapis.com
