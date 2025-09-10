@@ -1,14 +1,11 @@
 # Google App api
-#DOMAIN-SUFFIX,play.googleapis.com
-#DOMAIN-SUFFIX,discover-pa.googleapis.com
+DOMAIN-SUFFIX,discover-pa.googleapis.com
 #DOMAIN-SUFFIX,lens-pa.googleapis.com
 #DOMAIN-SUFFIX,geller-pagoogleapis.com
-#DOMAIN-SUFFIX,oauthaccountmanager.googleapis.com
-#DOMAIN-SUFFIX,xgapromomanager-pa.googleapis.com
-#DOMAIN-SUFFIX,save-pa.googleapis.com
-#DOMAIN-SUFFIX,notifications-pa.googleapis.com
-#DOMAIN-SUFFIX,connectivitycheck.gstatic.com
-#DOMAIN-KEYWORD,googleapis.com
+DOMAIN-SUFFIX,xgapromomanager-pa.googleapis.com
+DOMAIN-SUFFIX,save-pa.googleapis.com
+DOMAIN-SUFFIX,notifications-pa.googleapis.com
+DOMAIN-SUFFIX,connectivitycheck.gstatic.com
 
 # Google
 DOMAIN,www.googledservices.com
