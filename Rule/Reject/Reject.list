@@ -6,5 +6,5 @@ IP-CIDR,224.0.0.0/4,no-resolve
 # IP-CIDR6,ff00::/8,no-resolve
 
 # Other
-DOMAIN-SUFFIX,cdn.nmsl.sb(云??)
+DOMAIN-SUFFIX,cdn.nmsl.sb
 #DOMAIN-SUFFIX,cm-sub.pz.pe(這是紅樹苺)
