@@ -1,3 +1,14 @@
+DOMAIN-SUFFIX,cl2.apple.com
+DOMAIN-SUFFIX,amp-api.media.apple.com
+DOMAIN-SUFFIX,experiments.apple.com
+DOMAIN-SUFFIX,bpapi.apple.com
+DOMAIN-SUFFIX,configuration.apple.co
+DOMAIN-SUFFIX,valid.apple.com
+DOMAIN-SUFFIX,token.safebrowsing.apple
+DOMAIN-SUFFIX,swallow.apple.com
+DOMAIN-SUFFIX,valid.apple.com
+ontology.health.apple.com
+#上面為13/9/2025加
 DOMAIN-SUFFIX,40-courier.push.apple.com
 DOMAIN-SUFFIX,init.ess.apple.com
 DOMAIN-SUFFIX,init.push.apple.com
@@ -7,7 +18,7 @@ DOMAIN-SUFFIX,amp-api-edge.apps.apple.com
 DOMAIN-SUFFIX,tr.iadsdk.apple.com
 DOMAIN-SUFFIX,friend.gc.apple.com
 DOMAIN-SUFFIX,setup.icloud.com
-DOMAIN-SUFFIX,stats.gc.apple.com
+DOMAIN-SUFFIX,static.gc.apple.com
 DOMAIN-SUFFIX,gdmf.apple.com
 DOMAIN-SUFFIX,p165-fmip.icloud.com
 #上面為9/9/2025加
