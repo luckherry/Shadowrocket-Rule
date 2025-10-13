@@ -5,10 +5,21 @@ DOMAIN-KEYWORD,apple-relay
 DOMAIN-SUFFIX,gateway.icloud.com
 DOMAIN-SUFFIX,metrics.icloud.com
 DOMAIN-SUFFIX,seed.siri.apple.com
+IP-CIDR,17.248.152.145/24,PROXY,no-resolve
+IP-CIDR,17.248.152.113/24,PROXY,no-resolve
 #於7/9/2025,將gs-loc.apple.com,gs-loc-cn.apple.com,這應該是關於APPLE Map
 #IP-CIDR,172.224.177.0/24,no-resolve(應該是MS)
-IP-CIDR,17.0.0.0/8,no-resolve
+#IP-CIDR,17.0.0.0/8,no-resolve
 #IP-CIDR,43.163.178.196,no-resolve(應該不是蘋果)
+
+DOMAIN-SUFFIX：
+DOMAIN-SUFFIX,guzzoni.apple.com,PROXY
+DOMAIN-SUFFIX,*.smoot.apple.com,PROXY
+DOMAIN-SUFFIX,apple-relay.cloudflare.com,PROXY
+DOMAIN-SUFFIX,apple-relay.fastly-edge.com,PROXY
+DOMAIN-SUFFIX,cp4.cloudflare.com,PROXY
+
+
 # ChatGPT
 DOMAIN,browser-intake-datadoghq.com
 DOMAIN,chat.openai.com.cdn.cloudflare.net
