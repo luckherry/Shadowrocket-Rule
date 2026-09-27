@@ -1,0 +1,21 @@
+# AppleAI-CN.list
+# 2026-09-27 中國大陸增量：Apple Intelligence 本體（PCC / Siri / Search）
+# 不重複 AppleAI-ChatGPT-MO.list 已有條目
+# 使用：RULE-SET,AppleAI-ChatGPT-MO + RULE-SET,AppleAI-CN，都指向同一 AI 節點組
+
+# --- Siri / 聽寫 / Spotlight / 系統搜尋 ---
+DOMAIN,guzzoni.apple.com
+DOMAIN-SUFFIX,smoot.apple.com
+
+# --- Private Cloud Compute 輔助（本體推理，非 ChatGPT 擴展）---
+# 下列 mask 若你大 list 已當 Apple 直連，內地請改走代理，否則 PCC 會失敗
+DOMAIN,mask-api.icloud.com
+DOMAIN,mask-api.fe.apple-dns.net
+DOMAIN,mask-t.apple-dns.net
+DOMAIN,mask.apple-dns.net
+DOMAIN-SUFFIX,mask-h2.icloud.com
+DOMAIN-SUFFIX,mask.icloud.com
+
+# --- CloudKit / 模型與資格輔助 ---
+DOMAIN,api.apple-cloudkit.com
+DOMAIN-SUFFIX,apple-cloudkit.com
