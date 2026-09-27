@@ -1,5 +1,8 @@
-# Apple Intelligence — ChatGPT Extension / PCC relay
-# Macau: Apple AI 本體走 AppleMo DIRECT；本 list 只代理擴展與第三方 AI
+# AI.list — ChatGPT App / 擴展通道 / 第三方 AI
+# 走 🤖 A.I
+# Apple 地區檢測（setup.icloud / gsa 等）不放這裡，覆蓋會走去新加坡
+
+# Apple Intelligence → ChatGPT 擴展（PCC relay）
 DOMAIN,apple-relay.apple.com
 DOMAIN,apple-relay.cloudflare.com
 DOMAIN,apple-relay.fastly-edge.com
@@ -7,18 +10,6 @@ DOMAIN,apple-relay.mask.apple-dns.net
 DOMAIN,apple-relay.akamaized.net
 DOMAIN,cp4.cloudflare.com
 DOMAIN-KEYWORD,apple-relay
-DOMAIN,gspe1-ssl.ls.apple.com
-DOMAIN,gateway.icloud.com
-DOMAIN-SUFFIX,acsegateway.icloud.com
-
-# Siri 本體（澳門可直連，默認註釋；內地再取消 #）
-#DOMAIN,guzzoni.apple.com
-#DOMAIN-SUFFIX,smoot.apple.com
-#DOMAIN,seed.siri.apple.com
-#DOMAIN,metrics.icloud.com
-#IP-CIDR,17.248.152.145/24,no-resolve
-#IP-CIDR,17.248.152.113/24,no-resolve
-# 勿用 17.0.0.0/8，會把整段 Apple 拉進代理
 
 # ChatGPT / OpenAI
 DOMAIN-SUFFIX,chatgpt.com
