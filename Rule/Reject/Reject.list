@@ -1,10 +1,17 @@
-# Explicit REJECT for invalid/multicast ranges
+# Reject — 無效/組播 + 明確垃圾
+# 不做全面廣告過濾，避免誤殺銀行/Apple
+
+# Bogon / multicast
 IP-CIDR,0.0.0.0/8,no-resolve
 IP-CIDR,224.0.0.0/4,no-resolve
+IP-CIDR,240.0.0.0/4,no-resolve
+IP-CIDR,255.255.255.255/32,no-resolve
 
-# (Optional if you enable IPv6 later)
+# IPv6 multicast（以後開 IPv6 再取消註釋）
 # IP-CIDR6,ff00::/8,no-resolve
 
-# Other
+# Known junk
 DOMAIN-SUFFIX,cdn.nmsl.sb
-#DOMAIN-SUFFIX,cm-sub.pz.pe(這是紅樹苺)
+
+# 紅樹莓訂閱（需要時取消註釋）
+# DOMAIN-SUFFIX,cm-sub.pz.pe
