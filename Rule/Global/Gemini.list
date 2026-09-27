@@ -13,7 +13,7 @@
 # DOMAIN-KEYWORD,colab
 # DOMAIN-KEYWORD,generativelanguage
 
-# --- NotebookLM / Gemini Notebook（常 location unsupported） ---
+# --- NotebookLM / Gemini Notebook ---
 DOMAIN-SUFFIX,notebooklm.google
 DOMAIN-SUFFIX,notebooklm.google.com
 DOMAIN-SUFFIX,notebook.google.com
@@ -31,7 +31,6 @@ DOMAIN-KEYWORD,whisk
 DOMAIN-SUFFIX,flow.google
 DOMAIN-SUFFIX,flow.google.com
 
-# --- 其它常鎖區的 Google AI ---
+# --- 其它常鎖區 ---
 DOMAIN-SUFFIX,aitestkitchen.withgoogle.com
 DOMAIN-SUFFIX,experiments.withgoogle.com
-DOMAIN-SUFFIX,one.google.com
