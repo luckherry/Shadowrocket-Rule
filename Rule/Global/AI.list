@@ -57,3 +57,10 @@ IP-ASN,20473,no-resolve
 DOMAIN,cdn.usefathom.com
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
+
+# Meta Muse
+# 2026-09-27
+DOMAIN-SUFFIX,muse.ai
+DOMAIN-SUFFIX,meta.ai
+DOMAIN-SUFFIX,api.meta.ai
+DOMAIN-SUFFIX,builtwithmuse.com
