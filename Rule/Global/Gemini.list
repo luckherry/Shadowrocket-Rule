@@ -1,26 +1,27 @@
-# Gemini / Google AI apps
-DOMAIN,ai.google.dev
-DOMAIN,alkalimakersuite-pa.clients6.google.com
-DOMAIN,makersuite.google.com
-DOMAIN,aistudio.google.com
-DOMAIN-SUFFIX,bard.google.com
-DOMAIN-SUFFIX,deepmind.com
-DOMAIN-SUFFIX,deepmind.google
-DOMAIN-SUFFIX,gemini.google.com
-DOMAIN-SUFFIX,generativeai.google
-DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
-DOMAIN-SUFFIX,generativelanguage.googleapis.com
-DOMAIN-KEYWORD,generativelanguage
-DOMAIN-KEYWORD,colab
+# Gemini.list — Macau: Gemini 網頁可直連，僅代理 NotebookLM 等仍打不開的
+# 2026-09-27
 
-# Gemini Notebook (ex-NotebookLM)
+# --- 澳門可直連，已註釋 ---
+#DOMAIN,ai.google.dev
+#DOMAIN,alkalimakersuite-pa.clients6.google.com
+#DOMAIN,makersuite.google.com
+#DOMAIN,aistudio.google.com
+#DOMAIN-SUFFIX,bard.google.com
+#DOMAIN-SUFFIX,deepmind.com
+#DOMAIN-SUFFIX,deepmind.google
+#DOMAIN-SUFFIX,gemini.google.com
+#DOMAIN-SUFFIX,generativeai.google
+#DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+#DOMAIN-SUFFIX,generativelanguage.googleapis.com
+#DOMAIN-KEYWORD,generativelanguage
+#DOMAIN-KEYWORD,colab
+#DOMAIN-SUFFIX,labs.google
+#DOMAIN-SUFFIX,labs.google.com
+#DOMAIN-SUFFIX,aisandbox-pa.googleapis.com
+
+# --- NotebookLM（澳門直連常不可用，走 ✨ GEMINI 代理）---
 DOMAIN-SUFFIX,notebooklm.google.com
 DOMAIN-SUFFIX,notebooklm.google
-DOMAIN-SUFFIX,notebook.google.com
 DOMAIN-SUFFIX,notebooklm.googleapis.com
+DOMAIN-SUFFIX,notebooklm.cloud.google.com
 DOMAIN-KEYWORD,notebooklm
-
-# Other Google AI surfaces often used with Gemini
-DOMAIN-SUFFIX,labs.google
-DOMAIN-SUFFIX,labs.google.com
-DOMAIN-SUFFIX,aisandbox-pa.googleapis.com
