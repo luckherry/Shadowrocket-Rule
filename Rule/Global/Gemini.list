@@ -1,6 +1,14 @@
 # Gemini.list — Gemini + NotebookLM + Labs
 # 走 ✨ Gemini（預設美國）
 # 2026-09-28：notebooklm 會跳到 notebook.google / llm app
+# play.googleapis 等必須和 oauth 同出口，不能 FINAL DIRECT
+
+# --- 整組 Google API（避免半美國半直連）---
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,googleusercontent.com
+DOMAIN-SUFFIX,google.com
+DOMAIN-SUFFIX,google
 
 # --- Gemini 本體 ---
 DOMAIN-SUFFIX,gemini.google.com
