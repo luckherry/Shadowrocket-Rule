@@ -1,17 +1,7 @@
-# AI.list — ChatGPT App / 擴展通道 / 第三方 AI
-# 走 🤖 A.I
-# Apple 地區檢測（setup.icloud / gsa 等）不放這裡，覆蓋會走去新加坡
+# AI.list — ChatGPT App / Claude / Muse
+# 走 🤖 A.I（新加坡）
+# Apple Intelligence / Playground 調 GPT 已移至 AppleMo
 
-# Apple Intelligence → ChatGPT 擴展（PCC relay）
-DOMAIN,apple-relay.apple.com
-DOMAIN,apple-relay.cloudflare.com
-DOMAIN,apple-relay.fastly-edge.com
-DOMAIN,apple-relay.mask.apple-dns.net
-DOMAIN,apple-relay.akamaized.net
-DOMAIN,cp4.cloudflare.com
-DOMAIN-KEYWORD,apple-relay
-
-# ChatGPT / OpenAI
 DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,oaistatic.com
@@ -25,11 +15,9 @@ DOMAIN,openai-api.arkoselabs.com
 DOMAIN-SUFFIX,client-api.arkoselabs.com
 DOMAIN-KEYWORD,openai
 
-# Claude
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
 
-# Meta Muse
 DOMAIN-SUFFIX,muse.ai
 DOMAIN-SUFFIX,meta.ai
 DOMAIN-SUFFIX,api.meta.ai
