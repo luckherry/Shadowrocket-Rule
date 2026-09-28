@@ -1,6 +1,7 @@
 # AppleMo — Apple Intelligence / Siri AI / Image Playground
-# 走 🍎 Apple（必須美國，不要日本）
-# ChatGPT App 本體仍在 AI.list
+# 走 🍎 Apple（必須美國）
+# Playground / Siri 調 ChatGPT 必須和 apple-relay 同一個美國出口
+# 這份 list 要掛在 AI.list 前面，否則 openai.com 會被拖去 A.I
 # 不加 mask.icloud.com / mask-h2
 
 # Siri 語音 / 聽寫 / Spotlight / iOS 27 Siri AI
@@ -22,7 +23,7 @@ DOMAIN-SUFFIX,acsegateway.icloud.com
 DOMAIN,configuration.apple.com
 DOMAIN,xp.apple.com
 
-# Private Cloud Compute / ChatGPT 擴展 / Playground
+# Private Cloud Compute / relay
 DOMAIN,apple-relay.apple.com
 DOMAIN,apple-relay.cloudflare.com
 DOMAIN,apple-relay.fastly-edge.com
@@ -37,12 +38,20 @@ DOMAIN-SUFFIX,apple-cloudcompute.com
 DOMAIN-SUFFIX,apple-ai.com
 DOMAIN,cp4.cloudflare.com
 
-# Image Playground / Genmoji 圖片生成（iOS 27 PCC）
+# Image Playground / Genmoji PCC
 DOMAIN-SUFFIX,apple-livephotos.com
 DOMAIN-KEYWORD,apple-livephotos
 DOMAIN-SUFFIX,apple-cloudkit.com
 DOMAIN-KEYWORD,icloud-content
 DOMAIN,cl5-pcc.apple.com
+
+# Playground / Siri 調用的 ChatGPT（要和 relay 同組）
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN,ios.chat.openai.com
+DOMAIN-KEYWORD,openai
 
 # PCC 與 mask-api
 DOMAIN,mask-api.icloud.com
