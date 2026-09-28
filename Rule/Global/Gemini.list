@@ -12,6 +12,9 @@ DOMAIN,generativelanguage.googleapis.com
 DOMAIN,ai.google.dev
 DOMAIN-SUFFIX,aistudio.google.com
 DOMAIN,makersuite.google.com
+DOMAIN,robinfrontend-pa.googleapis.com
+DOMAIN,signaler-pa.googleapis.com
+DOMAIN,proactivebackend-pa.googleapis.com
 
 # --- NotebookLM / Gemini Notebook ---
 DOMAIN-SUFFIX,notebooklm.google
