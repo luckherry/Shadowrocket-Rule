@@ -1,7 +1,7 @@
-# Gemini.list — 鎖區 Google AI（NotebookLM / Labs）
+# Gemini.list — 鎖區 Google AI
 # 走 ✨ GEMINI，建議美國原生
 
-# --- NotebookLM / Gemini Notebook（2026 改名 notebook.google ---
+# --- NotebookLM / Gemini Notebook ---
 DOMAIN-SUFFIX,notebooklm.google
 DOMAIN-SUFFIX,notebooklm.google.com
 DOMAIN-SUFFIX,notebook.google
@@ -15,6 +15,10 @@ DOMAIN,alkalimakersuite-pa.clients6.google.com
 DOMAIN,webchannel-alkalimakersuite-pa.clients6.google.com
 DOMAIN,generativelanguage.googleapis.com
 DOMAIN-SUFFIX,gemini.gstatic.com
+DOMAIN,labstailwind.pa.googleapis.com
+DOMAIN,oauth2.googleapis.com
+DOMAIN,oauthaccountmanager.googleapis.com
+DOMAIN,lh3.googleusercontent.com
 
 # --- Google Labs ---
 DOMAIN-SUFFIX,labs.google
