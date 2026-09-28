@@ -1,5 +1,6 @@
 # Gemini.list — Gemini + NotebookLM + Labs
-# 走 ✨ GEMINI（預設美國）
+# 走 ✨ Gemini（預設美國）
+# 2026-09-28：notebooklm 會跳到 notebook.google / llm app
 
 # --- Gemini 本體 ---
 DOMAIN-SUFFIX,gemini.google.com
@@ -17,13 +18,14 @@ DOMAIN,signaler-pa.googleapis.com
 DOMAIN,proactivebackend-pa.googleapis.com
 
 # --- NotebookLM / Gemini Notebook ---
-DOMAIN-SUFFIX,notebooklm.google
-DOMAIN-SUFFIX,notebooklm.google.com
 DOMAIN-SUFFIX,notebook.google
 DOMAIN-SUFFIX,notebook.google.com
+DOMAIN-SUFFIX,notebooklm.google
+DOMAIN-SUFFIX,notebooklm.google.com
 DOMAIN,notebooklm-pa.googleapis.com
 DOMAIN,notebooklm.googleapis.com
 DOMAIN,notebooklm.googleusercontent.com
+DOMAIN-SUFFIX,notebooklm.cloud.google.com
 DOMAIN-KEYWORD,notebooklm
 DOMAIN,alkalicore-pa.clients6.google.com
 DOMAIN,alkalimakersuite-pa.clients6.google.com

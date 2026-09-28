@@ -1,7 +1,15 @@
-# AppleMo — Apple Intelligence 在澳門過不了的部份
-# 走 🍎 Apple（預設日本）
-# 含：資格檢測、PCC relay、Playground 調 ChatGPT 生圖
+# AppleMo — Apple Intelligence / Siri AI 在澳門過不了的部份
+# 走 🍎 Apple（預設美國，不要用日本做資格檢測）
+# 含：Siri 語音、地區檢測、PCC relay、Playground / ChatGPT 擴展
 # ChatGPT App 本體仍在 AI.list
+# 不加 mask.icloud.com / mask-h2（那是 iCloud 私密重定向整站）
+
+# Siri 語音 / 聽寫 / Spotlight
+DOMAIN,guzzoni.apple.com
+DOMAIN,api-siri-prod.apple.com
+DOMAIN-SUFFIX,siri.apple.com
+DOMAIN-SUFFIX,smoot.apple.com
+DOMAIN-KEYWORD,siri.apple
 
 # 資格／地區
 DOMAIN,setup.icloud.com
@@ -12,20 +20,19 @@ DOMAIN-SUFFIX,acsegateway.icloud.com
 DOMAIN,configuration.apple.com
 DOMAIN,xp.apple.com
 
-# Private Cloud Compute / ChatGPT 擴展 / Playground 外部模型
+# Private Cloud Compute / ChatGPT 擴展 / Playground
 DOMAIN,apple-relay.apple.com
 DOMAIN,apple-relay.cloudflare.com
 DOMAIN,apple-relay.fastly-edge.com
-DOMAIN,apple-relay.mask.apple-dns.net
 DOMAIN,apple-relay.akamaized.net
 DOMAIN,apple-carry-relay.cloudflare.com
-DOMAIN,cp4.cloudflare.com
+DOMAIN-SUFFIX,apple-relay.mask.apple-dns.net
 DOMAIN-KEYWORD,apple-relay
+DOMAIN,cp4.cloudflare.com
 
-# PCC 與 mask-api（生圖／摘要常走這裡）
+# PCC 與 mask-api
 DOMAIN,mask-api.icloud.com
 DOMAIN,mask-api.fe.apple-dns.net
 DOMAIN,mask-api.fe2.apple-dns.net
 DOMAIN,mask-t.apple-dns.net
 DOMAIN,mask.apple-dns.net
-# 不加 mask.icloud.com / mask-h2（那是 iCloud 私密重定向整站）
