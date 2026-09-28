@@ -1,24 +1,14 @@
-# Gemini.list — 澳門專用：能直連的#掉，只走區域鎖的 Google AI
+# Gemini.list — 澳門能直連的 Gemini 本體已#掉；只走鎖區 Google AI
+# 走 ✨ GEMINI（NotebookLM 建議美國）
 
-# --- 澳門通常能直連（不走代理） ---
-# DOMAIN-SUFFIX,gemini.google.com
-# DOMAIN-SUFFIX,gemini.google
-# DOMAIN-SUFFIX,bard.google.com
-# DOMAIN-SUFFIX,deepmind.com
-# DOMAIN-SUFFIX,deepmind.google
-# DOMAIN-SUFFIX,generativeai.google
-# DOMAIN,ai.google.dev
-# DOMAIN,makersuite.google.com
-# DOMAIN-SUFFIX,aistudio.google.com
-# DOMAIN-KEYWORD,colab
-# DOMAIN-KEYWORD,generativelanguage
-
-# --- NotebookLM / Gemini Notebook ---
+# --- NotebookLM ---
 DOMAIN-SUFFIX,notebooklm.google
 DOMAIN-SUFFIX,notebooklm.google.com
 DOMAIN-SUFFIX,notebook.google.com
 DOMAIN,notebooklm-pa.googleapis.com
 DOMAIN,notebooklm.googleapis.com
+DOMAIN,notebooklm.googleusercontent.com
+DOMAIN-KEYWORD,notebooklm
 
 # --- Google Labs：Whisk / ImageFX / MusicFX / VideoFX / Flow ---
 DOMAIN-SUFFIX,labs.google
