@@ -1,8 +1,7 @@
-# AppleMo — Apple Intelligence / Siri AI 在澳門過不了的部份
-# 走 🍎 Apple（預設美國，不要用日本做資格檢測）
-# 含：Siri 語音、地區檢測、PCC relay、Playground / ChatGPT 擴展
+# AppleMo — Apple Intelligence / Siri AI / Image Playground
+# 走 🍎 Apple（必須美國，不要日本）
 # ChatGPT App 本體仍在 AI.list
-# 不加 mask.icloud.com / mask-h2（那是 iCloud 私密重定向整站）
+# 不加 mask.icloud.com / mask-h2
 
 # Siri 語音 / 聽寫 / Spotlight / iOS 27 Siri AI
 DOMAIN,guzzoni.apple.com
@@ -32,9 +31,18 @@ DOMAIN,apple-carry-relay.cloudflare.com
 DOMAIN-SUFFIX,apple-relay.mask.apple-dns.net
 DOMAIN-KEYWORD,apple-relay
 DOMAIN-KEYWORD,apple-ml
+DOMAIN-KEYWORD,apple-intelligence
+DOMAIN-KEYWORD,pcc.apple.com
 DOMAIN-SUFFIX,apple-cloudcompute.com
 DOMAIN-SUFFIX,apple-ai.com
 DOMAIN,cp4.cloudflare.com
+
+# Image Playground / Genmoji 圖片生成（iOS 27 PCC）
+DOMAIN-SUFFIX,apple-livephotos.com
+DOMAIN-KEYWORD,apple-livephotos
+DOMAIN-SUFFIX,apple-cloudkit.com
+DOMAIN-KEYWORD,icloud-content
+DOMAIN,cl5-pcc.apple.com
 
 # PCC 與 mask-api
 DOMAIN,mask-api.icloud.com
