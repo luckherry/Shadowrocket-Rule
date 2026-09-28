@@ -4,9 +4,10 @@
 # ChatGPT App 本體仍在 AI.list
 # 不加 mask.icloud.com / mask-h2（那是 iCloud 私密重定向整站）
 
-# Siri 語音 / 聽寫 / Spotlight
+# Siri 語音 / 聽寫 / Spotlight / iOS 27 Siri AI
 DOMAIN,guzzoni.apple.com
 DOMAIN,api-siri-prod.apple.com
+DOMAIN,seed.siri.apple.com
 DOMAIN-SUFFIX,siri.apple.com
 DOMAIN-SUFFIX,smoot.apple.com
 DOMAIN-KEYWORD,siri.apple
@@ -16,6 +17,8 @@ DOMAIN,setup.icloud.com
 DOMAIN,gsa.apple.com
 DOMAIN,gspe1-ssl.ls.apple.com
 DOMAIN,gateway.icloud.com
+DOMAIN,probe.icloud.com
+DOMAIN,metrics.icloud.com
 DOMAIN-SUFFIX,acsegateway.icloud.com
 DOMAIN,configuration.apple.com
 DOMAIN,xp.apple.com
@@ -28,6 +31,9 @@ DOMAIN,apple-relay.akamaized.net
 DOMAIN,apple-carry-relay.cloudflare.com
 DOMAIN-SUFFIX,apple-relay.mask.apple-dns.net
 DOMAIN-KEYWORD,apple-relay
+DOMAIN-KEYWORD,apple-ml
+DOMAIN-SUFFIX,apple-cloudcompute.com
+DOMAIN-SUFFIX,apple-ai.com
 DOMAIN,cp4.cloudflare.com
 
 # PCC 與 mask-api
