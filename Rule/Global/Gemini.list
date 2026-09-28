@@ -1,6 +1,5 @@
 # Gemini.list — Gemini + NotebookLM + Labs
 # 走 ✨ GEMINI（預設美國）
-# oauth 與模型 API 必須和前端同一區，否則互相擋
 
 # --- Gemini 本體 ---
 DOMAIN-SUFFIX,gemini.google.com
@@ -30,6 +29,8 @@ DOMAIN,labstailwind.pa.googleapis.com
 DOMAIN,oauth2.googleapis.com
 DOMAIN,oauthaccountmanager.googleapis.com
 DOMAIN,lh3.googleusercontent.com
+DOMAIN-KEYWORD,content-storage-upload
+DOMAIN-SUFFIX,storage.googleapis.com
 
 # --- Labs ---
 DOMAIN-SUFFIX,labs.google
