@@ -1,5 +1,18 @@
-# Gemini.list — 鎖區 Google AI
-# 走 ✨ GEMINI，建議美國原生
+# Gemini.list — Gemini + NotebookLM + Labs
+# 走 ✨ GEMINI（預設美國）
+# oauth 與模型 API 必須和前端同一區，否則互相擋
+
+# --- Gemini 本體 ---
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,gemini.google
+DOMAIN-SUFFIX,bard.google.com
+DOMAIN-SUFFIX,generativeai.google
+DOMAIN,gemini.googleusercontent.com
+DOMAIN-SUFFIX,gemini.gstatic.com
+DOMAIN,generativelanguage.googleapis.com
+DOMAIN,ai.google.dev
+DOMAIN-SUFFIX,aistudio.google.com
+DOMAIN,makersuite.google.com
 
 # --- NotebookLM / Gemini Notebook ---
 DOMAIN-SUFFIX,notebooklm.google
@@ -13,14 +26,12 @@ DOMAIN-KEYWORD,notebooklm
 DOMAIN,alkalicore-pa.clients6.google.com
 DOMAIN,alkalimakersuite-pa.clients6.google.com
 DOMAIN,webchannel-alkalimakersuite-pa.clients6.google.com
-DOMAIN,generativelanguage.googleapis.com
-DOMAIN-SUFFIX,gemini.gstatic.com
 DOMAIN,labstailwind.pa.googleapis.com
 DOMAIN,oauth2.googleapis.com
 DOMAIN,oauthaccountmanager.googleapis.com
 DOMAIN,lh3.googleusercontent.com
 
-# --- Google Labs ---
+# --- Labs ---
 DOMAIN-SUFFIX,labs.google
 DOMAIN-SUFFIX,labs.google.com
 DOMAIN-SUFFIX,aisandbox-pa.googleapis.com
@@ -30,7 +41,5 @@ DOMAIN-KEYWORD,videofx
 DOMAIN-KEYWORD,whisk
 DOMAIN-SUFFIX,flow.google
 DOMAIN-SUFFIX,flow.google.com
-
-# --- 其它 ---
 DOMAIN-SUFFIX,aitestkitchen.withgoogle.com
 DOMAIN-SUFFIX,experiments.withgoogle.com
