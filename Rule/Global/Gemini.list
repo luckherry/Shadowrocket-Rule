@@ -1,58 +1,25 @@
 # Gemini.list — Gemini + NotebookLM + Labs
+# raw: https://raw.githubusercontent.com/luckherry/Shadowrocket-Rule/refs/heads/main/Rule/Global/Gemini.list
 # 走 ✨ Gemini（預設美國）
-# 2026-09-28：notebooklm 會跳到 notebook.google / llm app
-# play.googleapis / android.googleapis 要和 oauth 同出口，不能 FINAL DIRECT
+# 寬後綴已蓋住各 *.googleapis.com / *.google.com，不再堅列單主機。
+# DOMAIN-SUFFIX,google 要留：覆蓋 notebooklm.google（不是 .google.com）
 
-# --- 整組 Google API（避免半美國半直連）---
 DOMAIN-SUFFIX,googleapis.com
 DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,googleusercontent.com
 DOMAIN-SUFFIX,google.com
 DOMAIN-SUFFIX,google
-DOMAIN-SUFFIX,clients6.google.com
 DOMAIN-SUFFIX,app-analytics-services.com
 
-# --- Gemini 本體 ---
-DOMAIN-SUFFIX,gemini.google.com
-DOMAIN-SUFFIX,gemini.google
-DOMAIN-SUFFIX,bard.google.com
+# 寬後綴蓋不到的
 DOMAIN-SUFFIX,generativeai.google
-DOMAIN,gemini.googleusercontent.com
-DOMAIN-SUFFIX,gemini.gstatic.com
-DOMAIN,generativelanguage.googleapis.com
 DOMAIN,ai.google.dev
-DOMAIN-SUFFIX,aistudio.google.com
-DOMAIN,makersuite.google.com
-DOMAIN,robinfrontend-pa.googleapis.com
-DOMAIN,signaler-pa.googleapis.com
-DOMAIN,proactivebackend-pa.googleapis.com
-
-# --- NotebookLM / Gemini Notebook ---
-DOMAIN-SUFFIX,notebook.google
-DOMAIN-SUFFIX,notebook.google.com
-DOMAIN-SUFFIX,notebooklm.google
-DOMAIN-SUFFIX,notebooklm.google.com
-DOMAIN,notebooklm-pa.googleapis.com
-DOMAIN,notebooklm.googleapis.com
-DOMAIN,notebooklm.googleusercontent.com
-DOMAIN-SUFFIX,notebooklm.cloud.google.com
 DOMAIN-KEYWORD,notebooklm
-DOMAIN,alkalicore-pa.clients6.google.com
-DOMAIN,alkalimakersuite-pa.clients6.google.com
-DOMAIN,webchannel-alkalimakersuite-pa.clients6.google.com
-DOMAIN,labstailwind.pa.googleapis.com
-DOMAIN,oauth2.googleapis.com
-DOMAIN,oauthaccountmanager.googleapis.com
-DOMAIN,lh3.googleusercontent.com
-DOMAIN,android.googleapis.com
-DOMAIN,play.googleapis.com
 DOMAIN-KEYWORD,content-storage-upload
-DOMAIN-SUFFIX,storage.googleapis.com
 
-# --- Labs ---
+# Labs / FX
 DOMAIN-SUFFIX,labs.google
 DOMAIN-SUFFIX,labs.google.com
-DOMAIN-SUFFIX,aisandbox-pa.googleapis.com
 DOMAIN-KEYWORD,imagefx
 DOMAIN-KEYWORD,musicfx
 DOMAIN-KEYWORD,videofx

@@ -1,6 +1,8 @@
 # AI.list — ChatGPT App / Claude / Muse
-# 走 🤖 A.I（新加坡）
-# Apple Intelligence / Playground 調 GPT 已移至 AppleMo
+# raw: https://raw.githubusercontent.com/luckherry/Shadowrocket-Rule/refs/heads/main/Rule/Global/AI.list
+# 走 🤖 A.I
+# OpenAI 主域已在 AppleMo（更靠前），這裡留著當次序被改回去的後備。
+# 多出的 azure/livekit/arkose 只在這份。
 
 DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,openai.com
