@@ -1,6 +1,6 @@
 # AppleMo — Siri AI / Playground 调 ChatGPT
 # raw: https://raw.githubusercontent.com/luckherry/Shadowrocket-Rule/refs/heads/main/Rule/AppleMo
-# 不收 Music / TV / 地图 CN / Beats 假站 / 整个 ls.apple.com / mask.icloud.com
+# 2026-09-29：按用户提供的参考清单补 ls.apple.com / mask.icloud.com / mask-h2 / apps.mzstatic.com / KEYWORD siri
 
 # Siri
 DOMAIN,guzzoni.apple.com
@@ -9,12 +9,15 @@ DOMAIN,seed.siri.apple.com
 DOMAIN-SUFFIX,siri.apple.com
 DOMAIN-SUFFIX,smoot.apple.com
 DOMAIN-KEYWORD,siri.apple
+DOMAIN-KEYWORD,siri
 
 # 地区
 DOMAIN,gspe1-ssl.ls.apple.com
+DOMAIN-SUFFIX,ls.apple.com
 DOMAIN,setup.icloud.com
 DOMAIN,gsa.apple.com
 DOMAIN,gateway.icloud.com
+DOMAIN-SUFFIX,gateway.icloud.com
 DOMAIN,probe.icloud.com
 DOMAIN,pong.icloud.com
 DOMAIN,metrics.icloud.com
@@ -28,6 +31,10 @@ DOMAIN,idmsa.apple.com
 DOMAIN,appleid.apple.com
 
 # PCC / relay
+DOMAIN-SUFFIX,apple-relay.apple.com
+DOMAIN-SUFFIX,apple-relay.cloudflare.com
+DOMAIN-SUFFIX,apple-relay.fastly-edge.com
+DOMAIN-SUFFIX,apple-relay.mask.apple-dns.net
 DOMAIN-KEYWORD,apple-relay
 DOMAIN-KEYWORD,apple-ml
 DOMAIN-KEYWORD,apple-intelligence
@@ -35,8 +42,9 @@ DOMAIN-KEYWORD,pcc.apple.com
 DOMAIN-SUFFIX,apple-cloudcompute.com
 DOMAIN-SUFFIX,apple-ai.com
 DOMAIN,cp4.cloudflare.com
+DOMAIN-SUFFIX,cp4.cloudflare.com
 
-# Playground / 扩展常见主机（2025-09 自抓中与 AI 相关的）
+# Playground
 DOMAIN-SUFFIX,apple-livephotos.com
 DOMAIN-SUFFIX,apple-cloudkit.com
 DOMAIN,api.apple-cloudkit.com
@@ -58,6 +66,7 @@ DOMAIN-SUFFIX,amp-api-edge.apps.apple.com
 DOMAIN-SUFFIX,amp-api.media.apple.com
 DOMAIN-SUFFIX,apps.apple.com
 DOMAIN-SUFFIX,itunes.apple.com
+DOMAIN-SUFFIX,apps.mzstatic.com
 
 # ChatGPT
 DOMAIN-SUFFIX,chatgpt.com
@@ -66,11 +75,13 @@ DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,oaiusercontent.com
 DOMAIN-KEYWORD,openai
 
-# mask-api（不加 mask.icloud.com / mask-h2）
+# mask / Private Relay 入口
 DOMAIN,mask-api.icloud.com
 DOMAIN,mask-api.fe.apple-dns.net
 DOMAIN,mask-api.fe2.apple-dns.net
 DOMAIN,mask-t.apple-dns.net
 DOMAIN,mask.apple-dns.net
+DOMAIN-SUFFIX,mask.icloud.com
+DOMAIN-SUFFIX,mask-h2.icloud.com
 
 IP-CIDR,17.248.0.0/16,no-resolve
