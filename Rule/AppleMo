@@ -3,6 +3,7 @@
 # Playground / Siri 調 ChatGPT 必須和 apple-relay 同一個美國出口
 # 這份 list 要掛在 AI.list 前面，否則 openai.com 會被拖去 A.I
 # 不加 mask.icloud.com / mask-h2
+# AND UDP REJECT 只能寫在手機 conf 的 [Rule]，不能放 list
 
 # Siri 語音 / 聽寫 / Spotlight / iOS 27 Siri AI
 DOMAIN,guzzoni.apple.com
@@ -30,6 +31,7 @@ DOMAIN,apple-relay.fastly-edge.com
 DOMAIN,apple-relay.akamaized.net
 DOMAIN,apple-carry-relay.cloudflare.com
 DOMAIN-SUFFIX,apple-relay.mask.apple-dns.net
+DOMAIN,apple-native-relay.apple.com
 DOMAIN-KEYWORD,apple-relay
 DOMAIN-KEYWORD,apple-ml
 DOMAIN-KEYWORD,apple-intelligence
@@ -44,6 +46,7 @@ DOMAIN-KEYWORD,apple-livephotos
 DOMAIN-SUFFIX,apple-cloudkit.com
 DOMAIN-KEYWORD,icloud-content
 DOMAIN,cl5-pcc.apple.com
+DOMAIN-SUFFIX,sequoia.cdn-apple.com
 
 # Playground / Siri 調用的 ChatGPT（要和 relay 同組）
 DOMAIN-SUFFIX,chatgpt.com
@@ -59,3 +62,6 @@ DOMAIN,mask-api.fe.apple-dns.net
 DOMAIN,mask-api.fe2.apple-dns.net
 DOMAIN,mask-t.apple-dns.net
 DOMAIN,mask.apple-dns.net
+
+# 蘋果 PCC 常用 IP（截圖裡 17.248.188.x 走 FINAL DIRECT）
+IP-CIDR,17.248.0.0/16,no-resolve
