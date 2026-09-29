@@ -1,23 +1,21 @@
 # Gemini.list — Gemini + NotebookLM + Labs
 # raw: https://raw.githubusercontent.com/luckherry/Shadowrocket-Rule/refs/heads/main/Rule/Global/Gemini.list
 # 走 ✨ Gemini（預設美國）
-# 寬後綴已蓋住各 *.googleapis.com / *.google.com，不再堅列單主機。
-# DOMAIN-SUFFIX,google 要留：覆蓋 notebooklm.google（不是 .google.com）
 
 DOMAIN-SUFFIX,googleapis.com
 DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,googleusercontent.com
 DOMAIN-SUFFIX,google.com
+DOMAIN-SUFFIX,google.com.hk
+DOMAIN-SUFFIX,google.hk
 DOMAIN-SUFFIX,google
 DOMAIN-SUFFIX,app-analytics-services.com
 
-# 寬後綴蓋不到的
 DOMAIN-SUFFIX,generativeai.google
 DOMAIN,ai.google.dev
 DOMAIN-KEYWORD,notebooklm
 DOMAIN-KEYWORD,content-storage-upload
 
-# Labs / FX
 DOMAIN-SUFFIX,labs.google
 DOMAIN-SUFFIX,labs.google.com
 DOMAIN-KEYWORD,imagefx
