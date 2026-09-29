@@ -1,7 +1,6 @@
-# AppleMo — 国内/澳门用 Siri AI、Playground 调 ChatGPT
+# AppleMo — Siri AI / Playground 调 ChatGPT
 # raw: https://raw.githubusercontent.com/luckherry/Shadowrocket-Rule/refs/heads/main/Rule/AppleMo
-# 走 🍎 Apple = 美国住宅/家宽，不要香港、不要标成代理的 IDC
-# 参考：Apple 101555、V2EX iOS26.1/27、enableAppleAI discussion
+# 不收 Music / TV / 地图 CN / Beats 假站 / 整个 ls.apple.com / mask.icloud.com
 
 # Siri
 DOMAIN,guzzoni.apple.com
@@ -11,7 +10,7 @@ DOMAIN-SUFFIX,siri.apple.com
 DOMAIN-SUFFIX,smoot.apple.com
 DOMAIN-KEYWORD,siri.apple
 
-# 地区检测（gspe1 /pep/gcc 决定能不能调 ChatGPT）
+# 地区
 DOMAIN,gspe1-ssl.ls.apple.com
 DOMAIN,setup.icloud.com
 DOMAIN,gsa.apple.com
@@ -22,8 +21,11 @@ DOMAIN,metrics.icloud.com
 DOMAIN,iphone-ld.apple.com
 DOMAIN-SUFFIX,acsegateway.icloud.com
 DOMAIN,configuration.apple.com
+DOMAIN-SUFFIX,configuration.apple.co
 DOMAIN,xp.apple.com
 DOMAIN,appleid.cdn-apple.com
+DOMAIN,idmsa.apple.com
+DOMAIN,appleid.apple.com
 
 # PCC / relay
 DOMAIN-KEYWORD,apple-relay
@@ -34,7 +36,7 @@ DOMAIN-SUFFIX,apple-cloudcompute.com
 DOMAIN-SUFFIX,apple-ai.com
 DOMAIN,cp4.cloudflare.com
 
-# Playground / CloudKit
+# Playground / 扩展常见主机（2025-09 自抓中与 AI 相关的）
 DOMAIN-SUFFIX,apple-livephotos.com
 DOMAIN-SUFFIX,apple-cloudkit.com
 DOMAIN,api.apple-cloudkit.com
@@ -43,17 +45,28 @@ DOMAIN-SUFFIX,icloud-content.com
 DOMAIN-KEYWORD,icloud-content
 DOMAIN,cl5-pcc.apple.com
 DOMAIN-SUFFIX,cdn-apple.com
+DOMAIN-SUFFIX,playgrounds-cdn.apple.com
+DOMAIN-SUFFIX,experiments.apple.com
+DOMAIN-SUFFIX,cl2.apple.com
+DOMAIN-SUFFIX,bpapi.apple.com
+DOMAIN-SUFFIX,swallow.apple.com
+DOMAIN-SUFFIX,pancake.apple.com
+DOMAIN-SUFFIX,valid.apple.com
+DOMAIN,ontology.health.apple.com
+DOMAIN-SUFFIX,amp-api.apps.apple.com
+DOMAIN-SUFFIX,amp-api-edge.apps.apple.com
+DOMAIN-SUFFIX,amp-api.media.apple.com
 DOMAIN-SUFFIX,apps.apple.com
 DOMAIN-SUFFIX,itunes.apple.com
 
-# ChatGPT 扩展
+# ChatGPT
 DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,oaiusercontent.com
 DOMAIN-KEYWORD,openai
 
-# mask-api
+# mask-api（不加 mask.icloud.com / mask-h2）
 DOMAIN,mask-api.icloud.com
 DOMAIN,mask-api.fe.apple-dns.net
 DOMAIN,mask-api.fe2.apple-dns.net
