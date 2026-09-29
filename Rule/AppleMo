@@ -1,21 +1,20 @@
-# AppleMo — Apple Intelligence / Siri AI / Image Playground / ChatGPT 擴展
+# AppleMo — 国内/澳门用 Siri AI、Playground 调 ChatGPT
 # raw: https://raw.githubusercontent.com/luckherry/Shadowrocket-Rule/refs/heads/main/Rule/AppleMo
-# 走 🍎 Apple（必須美國）
-# 不再拆「澳門能直連的 Apple AI」，有影響的都走美國。
-# 不加整個 apple.com（App Store 下載 / 地圖 CN 會被拖去美國）。
-# AND UDP REJECT 仍只能寫 conf。
+# 走 🍎 Apple = 美国住宅/家宽，不要香港、不要标成代理的 IDC
+# 参考：Apple 101555、V2EX iOS26.1/27、enableAppleAI discussion
 
 # Siri
 DOMAIN,guzzoni.apple.com
 DOMAIN,api-siri-prod.apple.com
+DOMAIN,seed.siri.apple.com
 DOMAIN-SUFFIX,siri.apple.com
 DOMAIN-SUFFIX,smoot.apple.com
 DOMAIN-KEYWORD,siri.apple
 
-# 資格／地區 / 設備
+# 地区检测（gspe1 /pep/gcc 决定能不能调 ChatGPT）
+DOMAIN,gspe1-ssl.ls.apple.com
 DOMAIN,setup.icloud.com
 DOMAIN,gsa.apple.com
-DOMAIN,gspe1-ssl.ls.apple.com
 DOMAIN,gateway.icloud.com
 DOMAIN,probe.icloud.com
 DOMAIN,pong.icloud.com
@@ -24,6 +23,7 @@ DOMAIN,iphone-ld.apple.com
 DOMAIN-SUFFIX,acsegateway.icloud.com
 DOMAIN,configuration.apple.com
 DOMAIN,xp.apple.com
+DOMAIN,appleid.cdn-apple.com
 
 # PCC / relay
 DOMAIN-KEYWORD,apple-relay
@@ -34,19 +34,19 @@ DOMAIN-SUFFIX,apple-cloudcompute.com
 DOMAIN-SUFFIX,apple-ai.com
 DOMAIN,cp4.cloudflare.com
 
-# Image Playground / Genmoji / 資產
+# Playground / CloudKit
 DOMAIN-SUFFIX,apple-livephotos.com
 DOMAIN-SUFFIX,apple-cloudkit.com
+DOMAIN,api.apple-cloudkit.com
+DOMAIN,p68-keyvalueservice.icloud.com
+DOMAIN-SUFFIX,icloud-content.com
 DOMAIN-KEYWORD,icloud-content
 DOMAIN,cl5-pcc.apple.com
-DOMAIN-SUFFIX,sequoia.cdn-apple.com
 DOMAIN-SUFFIX,cdn-apple.com
 DOMAIN-SUFFIX,apps.apple.com
 DOMAIN-SUFFIX,itunes.apple.com
-DOMAIN,amp-api.apps.apple.com
-DOMAIN,bag.itunes.apple.com
 
-# Playground / Siri 調 ChatGPT
+# ChatGPT 扩展
 DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,oaistatic.com
@@ -60,5 +60,4 @@ DOMAIN,mask-api.fe2.apple-dns.net
 DOMAIN,mask-t.apple-dns.net
 DOMAIN,mask.apple-dns.net
 
-# PCC IP
 IP-CIDR,17.248.0.0/16,no-resolve
