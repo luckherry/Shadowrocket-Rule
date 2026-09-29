@@ -85,3 +85,5 @@ DOMAIN-SUFFIX,mask.icloud.com
 DOMAIN-SUFFIX,mask-h2.icloud.com
 
 IP-CIDR,17.248.0.0/16,no-resolve
+IP-CIDR,17.250.0.0/16,no-resolve
+IP-CIDR,17.250.96.203/32,no-resolve
