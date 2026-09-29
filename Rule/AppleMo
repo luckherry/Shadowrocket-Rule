@@ -1,15 +1,9 @@
-# AppleMo — Apple Intelligence / Siri AI / Image Playground
+# AppleMo — Apple Intelligence / Siri AI / Image Playground / ChatGPT 擴展
 # raw: https://raw.githubusercontent.com/luckherry/Shadowrocket-Rule/refs/heads/main/Rule/AppleMo
 # 走 🍎 Apple（必須美國）
-#
-# 掛法（須序，AppleMo 要在 AI.list 前）：
-#   RULE-SET,.../Rule/Reject/Reject.list,REJECT
-#   RULE-SET,.../Rule/AppleMo,🍎 Apple
-#   RULE-SET,.../Rule/Global/AI.list,🤖 A.I
-#
-# Playground / Siri 調 ChatGPT 必須和 apple-relay 同美國出口。
-# AND UDP REJECT 只能寫在 conf。
-# 已刪：被 siri.apple.com / apple-relay keyword / livephotos suffix 蓋住的單條 DOMAIN。
+# 不再拆「澳門能直連的 Apple AI」，有影響的都走美國。
+# 不加整個 apple.com（App Store 下載 / 地圖 CN 會被拖去美國）。
+# AND UDP REJECT 仍只能寫 conf。
 
 # Siri
 DOMAIN,guzzoni.apple.com
@@ -18,18 +12,20 @@ DOMAIN-SUFFIX,siri.apple.com
 DOMAIN-SUFFIX,smoot.apple.com
 DOMAIN-KEYWORD,siri.apple
 
-# 資格／地區
+# 資格／地區 / 設備
 DOMAIN,setup.icloud.com
 DOMAIN,gsa.apple.com
 DOMAIN,gspe1-ssl.ls.apple.com
 DOMAIN,gateway.icloud.com
 DOMAIN,probe.icloud.com
+DOMAIN,pong.icloud.com
 DOMAIN,metrics.icloud.com
+DOMAIN,iphone-ld.apple.com
 DOMAIN-SUFFIX,acsegateway.icloud.com
 DOMAIN,configuration.apple.com
 DOMAIN,xp.apple.com
 
-# PCC / relay（keyword 已蓋各 apple-relay.* ）
+# PCC / relay
 DOMAIN-KEYWORD,apple-relay
 DOMAIN-KEYWORD,apple-ml
 DOMAIN-KEYWORD,apple-intelligence
@@ -38,14 +34,19 @@ DOMAIN-SUFFIX,apple-cloudcompute.com
 DOMAIN-SUFFIX,apple-ai.com
 DOMAIN,cp4.cloudflare.com
 
-# Image Playground / Genmoji
+# Image Playground / Genmoji / 資產
 DOMAIN-SUFFIX,apple-livephotos.com
 DOMAIN-SUFFIX,apple-cloudkit.com
 DOMAIN-KEYWORD,icloud-content
 DOMAIN,cl5-pcc.apple.com
 DOMAIN-SUFFIX,sequoia.cdn-apple.com
+DOMAIN-SUFFIX,cdn-apple.com
+DOMAIN-SUFFIX,apps.apple.com
+DOMAIN-SUFFIX,itunes.apple.com
+DOMAIN,amp-api.apps.apple.com
+DOMAIN,bag.itunes.apple.com
 
-# Playground / Siri 調 ChatGPT（也在 AI.list，這裡要先命中）
+# Playground / Siri 調 ChatGPT
 DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,oaistatic.com
@@ -59,5 +60,5 @@ DOMAIN,mask-api.fe2.apple-dns.net
 DOMAIN,mask-t.apple-dns.net
 DOMAIN,mask.apple-dns.net
 
-# PCC IP（conf 裡又寫一條防 RULE-SET 沒載到 IP）
+# PCC IP
 IP-CIDR,17.248.0.0/16,no-resolve
