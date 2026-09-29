@@ -1,5 +1,16 @@
-# Reject — 無效/組播 + 明確垃圾
-# 不做全面廣告過濾，避免誤殺銀行/Apple
+# Reject.list
+# raw: https://raw.githubusercontent.com/luckherry/Shadowrocket-Rule/refs/heads/main/Rule/Reject/Reject.list
+# 用法：RULE-SET,<上面這條 raw>,REJECT
+#
+# 這份只丟無效網段 / 組播 / 明確垃圾。不做全面廣告過濾，避免誤殺銀行、Apple。
+#
+# 不要把 apple-relay 寫進這裡！
+# list 裡的 DOMAIN 會 TCP+UDP 一起 REJECT，Playground / Siri 就死了。
+# 只封 apple-relay 的 UDP/QUIC、逼走 TCP，必須寫在手機 conf 的 [Rule] 最上面：
+#   AND,((DOMAIN-SUFFIX,apple-relay.apple.com),(PROTOCOL,UDP)),REJECT
+#   AND,((DOMAIN-SUFFIX,apple-relay.cloudflare.com),(PROTOCOL,UDP)),REJECT
+#   AND,((DOMAIN-SUFFIX,apple-relay.fastly-edge.com),(PROTOCOL,UDP)),REJECT
+#   AND,((DOMAIN,cp4.cloudflare.com),(PROTOCOL,UDP)),REJECT
 
 # Bogon / multicast
 IP-CIDR,0.0.0.0/8,no-resolve
@@ -13,5 +24,5 @@ IP-CIDR,255.255.255.255/32,no-resolve
 # Known junk
 DOMAIN-SUFFIX,cdn.nmsl.sb
 
-# 紅樹莓訂閱（需要時取消註釋）
+# 紅樹莖訂閱（需要時取消註釋）
 # DOMAIN-SUFFIX,cm-sub.pz.pe

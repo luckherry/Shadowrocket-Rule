@@ -1,9 +1,16 @@
 # AppleMo — Apple Intelligence / Siri AI / Image Playground
+# raw: https://raw.githubusercontent.com/luckherry/Shadowrocket-Rule/refs/heads/main/Rule/AppleMo
 # 走 🍎 Apple（必須美國）
-# Playground / Siri 調 ChatGPT 必須和 apple-relay 同一個美國出口
-# 這份 list 要掛在 AI.list 前面，否則 openai.com 會被拖去 A.I
-# 不加 mask.icloud.com / mask-h2
-# AND UDP REJECT 只能寫在手機 conf 的 [Rule]，不能放 list
+#
+# 掛法（須序，AppleMo 要在 AI.list 前）：
+#   RULE-SET,https://raw.githubusercontent.com/luckherry/Shadowrocket-Rule/refs/heads/main/Rule/Reject/Reject.list,REJECT
+#   RULE-SET,https://raw.githubusercontent.com/luckherry/Shadowrocket-Rule/refs/heads/main/Rule/AppleMo,🍎 Apple
+#   RULE-SET,https://raw.githubusercontent.com/luckherry/Shadowrocket-Rule/refs/heads/main/Rule/Global/AI.list,🤖 A.I
+#
+# Playground / Siri 調 ChatGPT 必須和 apple-relay 同一個美國出口。
+# openai.com 若被 AI.list 先命中會走 A.I，跟 relay 地區不一致就失敗。
+# 不加 mask.icloud.com / mask-h2。
+# AND UDP REJECT 不能寫進這份 list，要寫在 conf，解釋見 Reject.list 檔頭註釋。
 
 # Siri 語音 / 聽寫 / Spotlight / iOS 27 Siri AI
 DOMAIN,guzzoni.apple.com
